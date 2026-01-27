@@ -142,5 +142,27 @@
     "reg_info": "ICIDA TECHNOLOGIES | Αρ. Εγγραφής: ΕΕ 56857 | Εγγεγραμμένη στην Κύπρο: 25/01/2023",
     "copyright": "© 2025 ICIDA Technologies. Όλα τα δικαιώματα κατοχυρωμένα.",
     "developed_by": "Developed by ICIDA Technologies"
+  },
+  "fujifilm_page": {
+    "hero_title": "FUJIFILM Selfie Kiosks",
+    "hero_subtitle": "Ολοκληρωμένες λύσεις αυτόματων πωλητών φωτογραφίας από την Fujifilm Korea",
+    "booth_title": "Selfie Booth",
+    "booth_desc": "Το απόλυτο photo studio σε μορφή κιόσκι. Συνδυάζει την ποιότητα εκτύπωσης Fujifilm με mirrorless κάμερες για επαγγελματικά αποτελέσματα.",
+    "stand_title": "Selfie Stand",
+    "stand_desc": "Ευέλικτο και κομψό, ιδανικό για εκδηλώσεις και χώρους με περιορισμένο χώρο. Υψηλή φορητότητα χωρίς συμβιβασμούς στην ποιότητα.",
+    "cube_title": "Selfie Cube",
+    "cube_desc": "Η πιο compact λύση για άμεση εκτύπωση από smartphones μέσω QR code. Ιδανικό για καφετέρειες και εμπορικά καταστήματα.",
+    "tech_title": "Τεχνολογία & Καινοτομία",
+    "dye_sub_title": "Dye-Sublimation Printing",
+    "dye_sub_desc": "Ζωντανά χρώματα και ανθεκτικότητα στον χρόνο με την εγγύηση της Fujifilm.",
+    "mirrorless_title": "Mirrorless Cameras",
+    "mirrorless_desc": "Ενσωματωμένες επαγγελματικές κάμερες για κορυφαία ευκρίνεια.",
+    "qr_title": "QR Connectivity",
+    "qr_desc": "Σύνδεση smartphone χωρίς εφαρμογές ή καλώδια για άμεση μεταφορά φωτογραφιών.",
+    "features_title": "Δυνατότητες Λογισμικού",
+    "layouts": "Προσαρμοσμένα Layouts",
+    "frames": "Ψηφιακά Πλαίσια",
+    "beauty_filters": "Beauty Filters",
+    "admin_panel": "Πίνακας Διαχείρισης"
   }
 }

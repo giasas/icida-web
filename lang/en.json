@@ -142,5 +142,27 @@
     "reg_info": "ICIDA TECHNOLOGIES | Reg. No: EE 56857 | Registered in Cyprus: 25/01/2023",
     "copyright": "© 2025 ICIDA Technologies. All rights reserved.",
     "developed_by": "Developed by ICIDA Technologies"
+  },
+  "fujifilm_page": {
+    "hero_title": "FUJIFILM Selfie Kiosks",
+    "hero_subtitle": "Comprehensive photo kiosk solutions from Fujifilm Korea",
+    "booth_title": "Selfie Booth",
+    "booth_desc": "The ultimate photo studio in kiosk form. Combines Fujifilm print quality with mirrorless cameras for professional results.",
+    "stand_title": "Selfie Stand",
+    "stand_desc": "Flexible and elegant, ideal for events and spaces with limited room. High portability without compromising on quality.",
+    "cube_title": "Selfie Cube",
+    "cube_desc": "The most compact solution for instant printing from smartphones via QR code. Perfect for cafes and retail stores.",
+    "tech_title": "Technology & Innovation",
+    "dye_sub_title": "Dye-Sublimation Printing",
+    "dye_sub_desc": "Vibrant colors and long-lasting durability with Fujifilm's guarantee.",
+    "mirrorless_title": "Mirrorless Cameras",
+    "mirrorless_desc": "Integrated professional cameras for ultimate clarity.",
+    "qr_title": "QR Connectivity",
+    "qr_desc": "Smartphone connection without apps or cables for instant photo transfer.",
+    "features_title": "Software Features",
+    "layouts": "Custom Layouts",
+    "frames": "Digital Frames",
+    "beauty_filters": "Beauty Filters",
+    "admin_panel": "Admin Dashboard"
   }
 }
