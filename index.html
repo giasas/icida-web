@@ -305,11 +305,11 @@
       <div class="text-center mb-5" data-animate>
         <h2 data-i18n="home.brands_title">Τα Brands μας</h2>
         <p class="lead" data-i18n="home.brands_subtitle">
-          Καινοτόμα προϊόντα που παράγονται από την ICIDA Technologies
+          Καινοτόμα προϊόντα που παράγονται και συσκευάζονται από την ICIDA Technologies
         </p>
       </div>
 
-      <div class="grid grid-3">
+      <div class="grid grid-4" style="margin-top: 40px;">
         <!-- Product 1 - Printing Inks -->
         <div class="product-card" data-animate>
           <div class="product-card__image" style="background-color: var(--color-grey-200);">
@@ -317,7 +317,7 @@
               style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           <div class="product-card__content">
-            <div class="product-card__category">ΜΕΛΑΝΙΑ ΕΚΤΥΠΩΣΗΣ</div>
+            <div class="product-card__category" data-i18n="footer.inks">ΜΕΛΑΝΙΑ ΕΚΤΥΠΩΣΗΣ</div>
             <h3 class="product-card__title">Inkjet & DTF Inks</h3>
             <p class="product-card__description">
               Επαγγελματικά μελάνια υψηλής ποιότητας για βιομηχανική χρήση
@@ -333,7 +333,7 @@
               style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           <div class="product-card__content">
-            <div class="product-card__category">ΧΑΡΤΙΑ ΕΚΤΥΠΩΣΗΣ</div>
+            <div class="product-card__category" data-i18n="footer.media">ΧΑΡΤΙΑ ΕΚΤΥΠΩΣΗΣ</div>
             <h3 class="product-card__title">ICIDA Media Papers</h3>
             <p class="product-card__description">
               Ειδικά επαγγελματικά χαρτιά εκτύπωσης για κάθε εφαρμογή
@@ -342,14 +342,31 @@
           </div>
         </div>
 
-        <!-- Product 3 - ZOrders Software -->
+        <!-- Product 3 - FUJIFILM -->
+        <div class="product-card" data-animate>
+          <div class="product-card__image"
+            style="background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%); display: flex; align-items: center; justify-content: center; padding: 20px;">
+            <img src="./assets/images/products/fujifilm_kiosk.png" alt="FUJIFILM"
+              style="width: auto; height: 200px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));">
+          </div>
+          <div class="product-card__content">
+            <div class="product-card__category" data-i18n="home.fujifilm_cat">KIOSKS & IMAGING</div>
+            <h3 class="product-card__title" data-i18n="home.fujifilm_brand">FUJIFILM</h3>
+            <p class="product-card__description" data-i18n="home.fujifilm_brand_desc">
+              Κορυφαία συστήματα Selfie Kiosk και λύσεις εκτύπωσης
+            </p>
+            <a href="products.html" class="btn btn-outline" data-i18n="products.view_details">Περισσότερα</a>
+          </div>
+        </div>
+
+        <!-- Product 4 - ZOrders Software -->
         <div class="product-card" data-animate>
           <div class="product-card__image" style="background-color: var(--color-grey-200);">
             <img src="./assets/images/products/zorders-placeholder.png" alt="ZOrders Software"
               style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           <div class="product-card__content">
-            <div class="product-card__category">ΛΟΓΙΣΜΙΚΟ</div>
+            <div class="product-card__category" data-i18n="footer.software">ΛΟΓΙΣΜΙΚΟ</div>
             <h3 class="product-card__title">ZOrders Software</h3>
             <p class="product-card__description">
               Έξυπνο λογισμικό διαχείρισης εργαστηριακών αντιδραστηρίων
