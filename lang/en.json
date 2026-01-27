@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "HOME",
+    "products": "PRODUCTS",
+    "services": "SERVICES",
+    "about": "ABOUT",
+    "resellers": "RESELLERS",
+    "downloads": "DOWNLOADS",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "title": "Innovation & Excellence in Industry",
+    "subtitle": "ICIDA provides advanced manufacturing, distribution and representation solutions in the European market",
+    "cta_primary": "Explore Our Products",
+    "cta_secondary": "Become a Partner"
+  },
+  "home": {
+    "services_title": "Our Services",
+    "services_subtitle": "Comprehensive solutions for every business need",
+    "service_1_title": "Product Manufacturing",
+    "service_1_desc": "We manufacture high-quality products with modern technologies and certifications",
+    "service_2_title": "EU Distribution",
+    "service_2_desc": "We distribute products throughout the European Union with reliability and speed",
+    "service_3_title": "Representations",
+    "service_3_desc": "We represent leading manufacturers from Korea, Italy, China and other countries",
+    "service_4_title": "Reseller Network",
+    "service_4_desc": "Create a successful partnership with our dynamic network",
+    "featured_title": "Featured Products",
+    "featured_subtitle": "The most popular products from our range",
+    "cta_title": "Interested in Becoming a Reseller?",
+    "cta_subtitle": "Join our network and enjoy exclusive benefits",
+    "cta_button": "Partnership Application",
+    "brands_title": "Our Brands",
+    "brands_subtitle": "Innovative products manufactured by ICIDA Technologies",
+    "partners_title": "Strategic Partnerships",
+    "partners_subtitle": "Exclusive partnerships with leading international manufacturers"
+  },
+  "products": {
+    "page_title": "Our Products",
+    "page_subtitle": "Discover our complete range of products and solutions",
+    "korean_title": "Enterpack - Food Packaging Machines",
+    "korean_desc": "Professional tray sealers and MAP packaging machines for all businesses",
+    "inks_title": "Printing Inks",
+    "inkjet_title": "Inkjet Inks",
+    "inkjet_desc": "Professional inkjet inks for industrial use",
+    "dtf_title": "DTF Inks",
+    "dtf_desc": "DTF (Direct to Film) inks for high-quality printing",
+    "media_title": "ICIDA Media - Professional Papers",
+    "media_desc": "Specialized printing papers for professional use",
+    "software_title": "ZOrders Software",
+    "software_desc": "Smart laboratory management software",
+    "view_details": "View Details",
+    "download_specs": "Download Specifications"
+  },
+  "services_page": {
+    "page_title": "Our Services",
+    "page_subtitle": "Comprehensive solutions from production to distribution",
+    "manufacturing_title": "Manufacturing & Production",
+    "manufacturing_desc": "We produce high-quality products with modern equipment and certifications. Our team ensures compliance with international standards at every stage of production.",
+    "distribution_title": "EU Distribution",
+    "distribution_desc": "We have an extensive distribution network throughout the European Union. We ensure fast and safe delivery of your products.",
+    "representation_title": "Representations & Intermediation",
+    "representation_desc": "We represent leading manufacturers from Korea, Italy, China and other countries. We provide full support for entry into the European market."
+  },
+  "about": {
+    "page_title": "About ICIDA",
+    "page_subtitle": "Our story, our values, our vision",
+    "profile_title": "Company Profile",
+    "profile_desc": "ICIDA Technologies is a dynamic company operating in the production, distribution and representation of products in the European market. Based in Cyprus, we provide comprehensive solutions to businesses throughout the EU.",
+    "mission_title": "Mission",
+    "mission_desc": "To provide innovative high-quality solutions that exceed our customers' expectations.",
+    "vision_title": "Vision",
+    "vision_desc": "To become the leading business partner in Europe for industrial products and solutions.",
+    "certifications_title": "Certifications",
+    "partnerships_title": "Partnerships"
+  },
+  "resellers": {
+    "page_title": "Become a Reseller",
+    "page_subtitle": "Partner with us and grow your business",
+    "benefits_title": "Partnership Benefits",
+    "benefit_1_title": "Competitive Prices",
+    "benefit_1_desc": "Special prices for resellers with volume discounts",
+    "benefit_2_title": "Technical Support",
+    "benefit_2_desc": "Full technical support and training for all products",
+    "benefit_3_title": "Marketing Support",
+    "benefit_3_desc": "Marketing materials and marketing support",
+    "benefit_4_title": "Fast Delivery",
+    "benefit_4_desc": "Priority in deliveries and flexible payment terms",
+    "form_title": "Reseller Application Form",
+    "form_subtitle": "Complete the form below and we will contact you soon"
+  },
+  "downloads": {
+    "page_title": "Download Center",
+    "page_subtitle": "Datasheets, brochures, certificates and videos",
+    "datasheets_title": "Technical Datasheets",
+    "brochures_title": "Brochures",
+    "certificates_title": "Certificates",
+    "videos_title": "Product Videos"
+  },
+  "contact": {
+    "page_title": "Contact Us",
+    "page_subtitle": "We're here to help you",
+    "form_title": "Send us a Message",
+    "info_title": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "social": "Social Media"
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "message": "Message",
+    "market": "Market Coverage",
+    "experience": "Experience (years)",
+    "submit": "Submit",
+    "required": "Required field",
+    "success": "Message sent successfully!",
+    "error": "There was an error. Please try again."
+  },
+  "footer": {
+    "about_title": "About",
+    "products_title": "Products",
+    "services_title": "Services",
+    "contact_title": "Contact",
+    "copyright": "© 2025 ICIDA Technologies. All rights reserved.",
+    "developed_by": "Developed by ICIDA Technologies"
+  }
+}

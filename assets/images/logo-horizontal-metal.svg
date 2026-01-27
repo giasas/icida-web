@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <!-- Metallic gradient for text -->
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8E8E8;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8B8B8;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0A0A0;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Shine overlay gradient -->
+    <linearGradient id="shineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.2" />
+    </linearGradient>
+
+    <!-- Shadow filter -->
+    <filter id="textShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#2E4092"/>
+
+  <!-- Icida text with metallic effect -->
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="100" font-weight="300"
+        fill="url(#metalGradient)" text-anchor="middle" letter-spacing="6" filter="url(#textShadow)">Icida</text>
+
+  <!-- Shine overlay on Icida -->
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="100" font-weight="300"
+        fill="url(#shineGradient)" text-anchor="middle" letter-spacing="6" opacity="0.6">Icida</text>
+
+  <!-- Technologies text with metallic effect -->
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="45" font-weight="300"
+        fill="url(#metalGradient)" text-anchor="middle" letter-spacing="3" filter="url(#textShadow)">Technologies</text>
+
+  <!-- Shine overlay on Technologies -->
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="45" font-weight="300"
+        fill="url(#shineGradient)" text-anchor="middle" letter-spacing="3" opacity="0.6">Technologies</text>
+</svg>

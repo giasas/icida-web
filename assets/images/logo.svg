@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#2E4092"/>
+
+  <!-- Icida text -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="180" font-weight="300" fill="#FFFFFF" text-anchor="middle" letter-spacing="8">Icida</text>
+
+  <!-- Technologies text -->
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="80" font-weight="300" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">Technologies</text>
+</svg>
