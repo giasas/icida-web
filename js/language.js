@@ -232,11 +232,12 @@ class LanguageManager {
           "testimonials": {
             "title": "Τι λένε οι συνεργάτες μας",
             "subtitle": "Εμπειρίες από το τελευταίο 2μηνο",
-            "review1_text": "Δεν είχα ασχοληθεί με το αντικείμενο αλλά μου άρεσε η σκέψη να έχω μια υπηρεσία και αφορμή για να επισκεφτούν το κατάστημά μου, πόσο μάλλον εάν είναι και επικερδές... Πολύ καλή εξυπηρέτηση από την ομάδα των παιδιών, παρόλο που είχαμε τους ενδοιασμούς μας... μας το έδωσαν με το κλειδί στο χέρι!",
-            "review1_text_short": "\"Πολύ καλή εξυπηρέτηση... μας το έδωσαν με το κλειδί στο χέρι!\"",
+            "review1_text": "Δεν είχα ασχοληθεί με το αντικείμενο αλλά μου άρεσε η σκέψη να έχω μια υπηρεσία και αφορμή για να επισκεφτούν το κατάστημά μου, πόσο μάλλον εάν είναι και επικερδές...",
             "review1_author": "Νίκος Π., Ιδιοκτήτης Καταστήματος",
-            "review2_text": "Καταπληκτική και μοντέρνα λύση για να χρησιμοποιήσει ο κόσμος τις τόσες φωτογραφίες που έχει στο κινητό του και να τις μοιραστεί με αυτούς που πρέπει.",
-            "review2_author": "Ελένη Μ., Υπεύθυνη Εκδηλώσεων"
+            "review2_text": "Πολύ καλή εξυπηρέτηση από την ομάδα των παιδιών, παρόλο που είχαμε τους ενδοιασμούς μας... μας το έδωσαν με το κλειδί στο χέρι!",
+            "review2_author": "Γιώργος Α., Επιχειρηματίας",
+            "review3_text": "Καταπληκτική και μοντέρνα λύση για να χρησιμοποιήσει ο κόσμος τις τόσες φωτογραφίες που έχει στο κινητό του και να τις μοιραστεί με αυτούς που πρέπει.",
+            "review3_author": "Ελένη Μ., Υπεύθυνη Εκδηλώσεων"
           }
         }
       },
@@ -464,11 +465,12 @@ class LanguageManager {
           "testimonials": {
             "title": "What Our Partners Say",
             "subtitle": "Feedback from the last 2 months",
-            "review1_text": "I hadn't dealt with this industry before, but I loved the idea of having a service and a reason for people to visit my store, especially when it's profitable... Excellent service from the team; despite our initial hesitations, they provided a turnkey solution!",
-            "review1_text_short": "\"Excellent service from the team... They provided a turnkey solution!\"",
+            "review1_text": "I hadn't dealt with this industry before, but I loved the idea of having a service and a reason for people to visit my store, especially when it's profitable...",
             "review1_author": "Nikos P., Store Owner",
-            "review2_text": "An amazing and modern solution for people to use the many photos they have on their phones and share them with the right people.",
-            "review2_author": "Eleni M., Event Planner"
+            "review2_text": "Excellent service from the team; despite our initial hesitations, they provided a turnkey solution!",
+            "review2_author": "George A., Entrepreneur",
+            "review3_text": "An amazing and modern solution for people to use the many photos they have on their phones and share them with the right people.",
+            "review3_author": "Eleni M., Event Planner"
           }
         }
       }
