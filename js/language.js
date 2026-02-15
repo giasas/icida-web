@@ -84,7 +84,9 @@ class LanguageManager {
           "representation_title": "Αντιπροσωπείες & Διαμεσολάβηση",
           "representation_desc": "Αντιπροσωπεύουμε κορυφαίους κατασκευαστές από Κορέα, Ιταλία, Κίνα και άλλες χώρες. Παρέχουμε πλήρη υποστήριξη για είσοδο στην Ευρωπαϊκή αγορά.",
           "white_label_title": "White Label & OEM Solutions",
-          "white_label_desc": "Παραγωγή ετικετών για συσκευασίες και προϊόντα. Ιδανικό για επιχειρήσεις που θέλουν να προωθήσουν τα προϊόντα τους με το δικό τους brand. Προσφέρουμε πλήρη υποστήριξη για White Label και OEM λύσεις."
+          "white_label_desc": "Παραγωγή ετικετών για συσκευασίες και προϊόντα. Ιδανικό για επιχειρήσεις που θέλουν να προωθήσουν τα προϊόντα τους με το δικό τους brand. Προσφέρουμε πλήρη υποστήριξη για White Label και OEM λύσεις.",
+          "software_dev_title": "Ανάπτυξη Λογισμικού & Αυτοματοποίηση",
+          "software_dev_desc": "Αναπτύσσουμε custom εφαρμογές για αυτοματοποίηση εργασιών και ειδικά modules ως επέκταση των εφαρμογών που ήδη χρησιμοποιούν οι πελάτες. Βελτιστοποιούμε τις επιχειρηματικές διαδικασίες με έξυπνες λύσεις λογισμικού."
         },
         "about": {
           "page_title": "Σχετικά με την ICIDA",
@@ -284,7 +286,9 @@ class LanguageManager {
           "representation_title": "Representations & Intermediation",
           "representation_desc": "We represent leading manufacturers from Korea, Italy, China and other countries. We provide full support for entry into the European market.",
           "white_label_title": "White Label & OEM Solutions",
-          "white_label_desc": "Custom label production for packaging and products. Ideal for businesses looking to promote their products under their own brand. We offer full support for White Label and OEM solutions."
+          "white_label_desc": "Custom label production for packaging and products. Ideal for businesses looking to promote their products under their own brand. We offer full support for White Label and OEM solutions.",
+          "software_dev_title": "Software Development & Automation",
+          "software_dev_desc": "We develop custom applications for workflow automation and specialized modules as extensions to existing client applications. We optimize business processes with smart software solutions."
         },
         "about": {
           "page_title": "About ICIDA",
