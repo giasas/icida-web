@@ -7,7 +7,16 @@
   <meta name="description" content="Προϊόντα ICIDA - Μελάνια Εκτύπωσης, ICIDA Media, ZOrders Software">
   <title>ICIDA Technologies | Προϊόντα</title>
   <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+
+  <!-- Preload fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/products-premium.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -41,122 +50,125 @@
     </div>
   </header>
 
-  <!-- PAGE HEADER -->
-  <section class="section section-sm"
-    style="background: linear-gradient(135deg, var(--color-grey-100) 0%, var(--color-white) 100%); padding-top: calc(var(--header-height) + var(--spacing-3xl));">
-    <div class="container text-center">
-      <h1 data-animate>Τεχνολογία & Ποιότητα</h1>
-      <p class="lead" data-animate>
-        Ανακαλύψτε προηγμένες λύσεις για επαγγελματικές εφαρμογές
-      </p>
+
+  <!-- PRODUCTS HERO -->
+  <section class="products-hero">
+    <div class="container">
+      <div class="products-hero-content">
+        <span class="hero-badge">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M10 2L12.5 7.5L18 8.5L14 12.5L15 18L10 15.5L5 18L6 12.5L2 8.5L7.5 7.5L10 2Z" fill="currentColor" />
+          </svg>
+          Premium Solutions
+        </span>
+        <h1>Τεχνολογία & Ποιότητα</h1>
+        <p class="lead">
+          Ανακαλύψτε προηγμένες λύσεις για επαγγελματικές εφαρμογές από κορυφαίους κατασκευαστές παγκοσμίως
+        </p>
+      </div>
     </div>
   </section>
 
-  <!-- PRODUCTS OVERVIEW -->
+  <!-- CATEGORY FILTER -->
+  <section class="category-filter">
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-category="all">Όλα τα Προϊόντα</button>
+        <button class="filter-tab" data-category="kiosks">Photo Kiosks</button>
+        <button class="filter-tab" data-category="inks">Μελάνια DTF</button>
+        <button class="filter-tab" data-category="equipment">Εξοπλισμός</button>
+        <button class="filter-tab" data-category="software">Software</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS GRID -->
   <section class="section">
     <div class="container">
-      <div class="row">
-        <!-- FUJIFILM Selfie Kiosks Product Card -->
-        <div class="col-md-6 mb-4" data-animate id="fujifilm">
-          <div class="product-category-card"
-            style="background: linear-gradient(135deg, #fef2f2 0%, #fff1f2 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
-            <div
-              style="width: 100%; height: 250px; overflow: hidden; position: relative; background: linear-gradient(135deg, var(--color-white) 0%, #fef2f2 100%); display: flex; align-items: center; justify-content: center; padding: var(--spacing-lg);">
-              <img src="https://cdn.imweb.me/thumbnail/20250729/95a894efad669.png" alt="Korea FUJIFILM Photokiosk"
-                style="height: 220px; width: auto; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));">
-              <div
-                style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
-                KOREA FUJIFILM
-              </div>
-            </div>
-            <div style="padding: var(--spacing-2xl);">
-              <h2
-                style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-md); color: var(--color-grey-900);"
-                data-i18n="products.fujifilm_title">
-                FUJIFILM Selfie Kiosks
-              </h2>
-              <p style="font-size: var(--font-size-lg); color: var(--color-grey-600); margin-bottom: var(--spacing-md); flex-grow: 1;"
-                data-i18n="products.fujifilm_desc">
-                Προηγμένα συστήματα αυτόματων πωλητών (Selfie Kiosks) από την Fujifilm Korea.
-              </p>
-              <ul
-                style="list-style: none; padding: 0; margin-bottom: var(--spacing-xl); display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-sm);">
-                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
-                  <span style="color: #ef4444;">✓</span> Modular Design
-                </li>
-                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
-                  <span style="color: #ef4444;">✓</span> Premium Imaging
-                </li>
-                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
-                  <span style="color: #ef4444;">✓</span> Instant Dye-Sub
-                </li>
-                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
-                  <span style="color: #ef4444;">✓</span> Custom Software
-                </li>
-              </ul>
-              <a href="fujifilm.html" class="btn btn--primary" style="align-self: flex-start; background: #ef4444;">
-                <span data-i18n="products.view_details">Περισσότερα</span> →
-              </a>
-            </div>
+      <div class="products-grid">
+
+        <!-- FUJIFILM Selfie Kiosks -->
+        <div class="product-card-premium" data-category="kiosks">
+          <div class="product-image-container">
+            <span class="product-badge badge-fujifilm">KOREA FUJIFILM</span>
+            <img src="https://cdn.imweb.me/thumbnail/20250729/95a894efad669.png" alt="Korea FUJIFILM Photokiosk">
+          </div>
+          <div class="product-content">
+            <h2 class="product-title">FUJIFILM Selfie Kiosks</h2>
+            <p class="product-subtitle">Προηγμένα Συστήματα Αυτόματων Πωλητών</p>
+            <p class="product-description">
+              Επαγγελματικά selfie kiosks από την Fujifilm Korea με modular design και premium imaging technology για
+              instant dye-sublimation εκτύπωση.
+            </p>
+            <ul class="product-features">
+              <li>
+                <span class="check-icon">✓</span>
+                <span>Modular Design</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>Premium Imaging</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>Instant Dye-Sub</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>Custom Software</span>
+              </li>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="fujifilm.html" class="btn btn-primary">
+              <span>Περισσότερα</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </a>
           </div>
         </div>
 
-        <!-- ICIDA DTF Inks Product Card -->
-        <div class="col-md-6 mb-4" data-animate id="inks">
-          <div class="product-category-card"
-            style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
-            <!-- Product Images -->
-            <div
-              style="width: 100%; height: 250px; overflow: hidden; position: relative; background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%); display: flex; align-items: center; justify-content: center; gap: var(--spacing-sm); padding: var(--spacing-lg);">
-              <img src="https://www.riverlab.ltd/images/thumbs/0000181_icida-cyan-dtf-pro-ink-1l_415.jpeg"
-                alt="ICIDA Cyan DTF Ink"
-                style="height: 180px; width: auto; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));"
-                onerror="this.style.display='none'">
-              <img src="https://www.riverlab.ltd/images/thumbs/0000182_icida-magenta-dtf-pro-ink-1l_415.jpeg"
-                alt="ICIDA Magenta DTF Ink"
-                style="height: 200px; width: auto; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1)); margin-top: -20px;"
-                onerror="this.style.display='none'">
-              <img src="https://www.riverlab.ltd/images/thumbs/0000183_icida-yellow-dtf-pro-ink-1l_415.jpeg"
-                alt="ICIDA Yellow DTF Ink"
-                style="height: 180px; width: auto; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));"
-                onerror="this.style.display='none'">
-              <div
-                style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
-                ΑΝΑΛΩΣΙΜΑ ΕΚΤΥΠΩΣΗΣ
-              </div>
-            </div>
-            <!-- Content -->
-            <div style="padding: var(--spacing-2xl);">
-              <h2
-                style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-md); color: var(--color-grey-900);">
-                ICIDA DTF Pro Ink
-              </h2>
-              <p
-                style="font-size: var(--font-size-lg); color: var(--color-grey-600); margin-bottom: var(--spacing-md); flex-grow: 1;">
-                Μελάνια DTF Επαγγελματικής Ποιότητας
-              </p>
-              <p style="color: var(--color-grey-600); margin-bottom: var(--spacing-lg);">
-                Premium μελάνια DTF με 15% ελαφρύτερο αίσθημα, φιλικά προς το περιβάλλον και πιστοποιημένα ISO.
-                Διαθέσιμα σε 5 χρώματα.
-              </p>
-              <ul style="list-style: none; padding: 0; margin: 0 0 var(--spacing-lg) 0; color: var(--color-grey-600);">
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: #0ea5e9; font-size: 1.2em;">✓</span>
-                  <span>5 Χρώματα: Cyan, Magenta, Yellow, Black, White</span>
-                </li>
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: #0ea5e9; font-size: 1.2em;">✓</span>
-                  <span>Eco-Friendly Water Based Formula</span>
-                </li>
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: #0ea5e9; font-size: 1.2em;">✓</span>
-                  <span>Πιστοποιήσεις: ISO9001, ISO14001, CE, RoHS, Reach</span>
-                </li>
-              </ul>
-              <a href="dtf-inks.html" class="btn btn--primary" style="align-self: flex-start;">
-                Δείτε τα Μελάνια DTF →
-              </a>
-            </div>
+        <!-- ICIDA DTF Inks -->
+        <div class="product-card-premium" data-category="inks">
+          <div class="product-image-container">
+            <span class="product-badge badge-inks">ΑΝΑΛΩΣΙΜΑ ΕΚΤΥΠΩΣΗΣ</span>
+            <img src="https://www.riverlab.ltd/images/thumbs/0000182_icida-magenta-dtf-pro-ink-1l_415.jpeg"
+              alt="ICIDA DTF Pro Ink">
+          </div>
+          <div class="product-content">
+            <h2 class="product-title">ICIDA DTF Pro Ink</h2>
+            <p class="product-subtitle">Μελάνια DTF Επαγγελματικής Ποιότητας</p>
+            <p class="product-description">
+              Premium μελάνια DTF με 15% ελαφρύτερο αίσθημα, φιλικά προς το περιβάλλον και πιστοποιημένα ISO. Διαθέσιμα
+              σε 5 χρώματα.
+            </p>
+            <ul class="product-features">
+              <li>
+                <span class="check-icon">✓</span>
+                <span>5 Χρώματα (CMYKW)</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>Eco-Friendly Formula</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>ISO Πιστοποιημένα</span>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <span>15% Lighter Feel</span>
+              </li>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="dtf-inks.html" class="btn btn-primary">
+              <span>Δείτε τα Μελάνια</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </a>
           </div>
         </div>
 
