@@ -102,18 +102,39 @@
     transform: rotate(-45deg) translate(7px, -7px);
   }
 
-  /* Hero */
+  /* Hero Slider Mobile */
+  .hero-slider {
+    min-height: auto;
+  }
+
+  .hero-slide {
+    min-height: 70vh !important;
+    padding: var(--spacing-2xl) 0;
+  }
+
   .hero {
-    min-height: calc(100vh - var(--header-height));
+    min-height: 70vh;
     padding-top: var(--spacing-xl);
   }
 
+  .hero__content {
+    padding: var(--spacing-lg) 0;
+  }
+
   .hero__title {
-    font-size: var(--font-size-4xl);
+    font-size: var(--font-size-3xl);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-md);
   }
 
   .hero__subtitle {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  /* Hide hero graphics on mobile */
+  .hero-graphic {
+    display: none !important;
   }
 
   /* Grids */
@@ -178,7 +199,16 @@
   }
 
   .hero__title {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .hero__subtitle {
+    font-size: var(--font-size-sm);
+  }
+
+  .hero-slide {
+    min-height: 60vh !important;
   }
 
   .card {
