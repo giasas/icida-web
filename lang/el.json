@@ -32,9 +32,9 @@
     "cta_button": "Αίτηση Συνεργασίας",
     "brands_title": "Τα Brands μας",
     "brands_subtitle": "Καινοτόμα προϊόντα που παράγονται και συσκευάζονται από την ICIDA Technologies",
-    "fujifilm_brand": "FUJIFILM",
-    "fujifilm_cat": "KIOSKS & IMAGING",
-    "fujifilm_brand_desc": "Κορυφαία συστήματα Selfie Kiosk και λύσεις εκτύπωσης",
+    "fujifilm_brand": "Korea FUJIFILM Photokiosk",
+    "fujifilm_cat": "ΑΥΤΟΜΑΤΟΙ ΠΩΛΗΤΕΣ ΦΩΤΟΓΡΑΦΙΑΣ",
+    "fujifilm_brand_desc": "Η ICIDA αποτελεί τον επίσημο συνεργάτη της Fujifilm Korea για Ελλάδα και Κύπρο, προσφέροντας την πλήρη σειρά των καινοτόμων Selfie Photokiosks. Συνδυάζουμε την κορυφαία τεχνολογία εκτύπωσης της Fujifilm με τις σύγχρονες τάσεις του K-Culture, δημιουργώντας το μέλλον της αυτόματης φωτογράφησης.",
     "partners_title": "Στρατηγικές Συνεργασίες",
     "partners_subtitle": "Αποκλειστικές συνεργασίες με κορυφαίους διεθνείς κατασκευαστές"
   },
@@ -52,8 +52,8 @@
     "media_desc": "Ειδικά χαρτιά εκτύπωσης για επαγγελματική χρήση",
     "software_title": "ZOrders Software",
     "software_desc": "Έξυπνο λογισμικό διαχείρισης εργαστηρίου",
-    "fujifilm_title": "FUJIFILM Selfie Kiosks",
-    "fujifilm_desc": "Προηγμένα συστήματα αυτόματων πωλητών (Selfie Kiosks) από την Fujifilm Korea. Υψηλή ποιότητα εκτύπωσης dye-sublimation, ενσωμάτωση με mirrorless κάμερες και modular σχεδιασμός για κάθε χώρο.",
+    "fujifilm_title": "Korea FUJIFILM Photokiosk",
+    "fujifilm_desc": "Προηγμένα συστήματα αυτόματων πωλητών (Korea FUJIFILM Photokiosk) από την Fujifilm Korea. Υψηλή ποιότητα εκτύπωσης dye-sublimation, ενσωμάτωση με mirrorless κάμερες και modular σχεδιασμός για κάθε χώρο.",
     "view_details": "Περισσότερα",
     "download_specs": "Λήψη Τεχνικών Χαρακτηριστικών"
   },
@@ -144,8 +144,8 @@
     "developed_by": "Developed by ICIDA Technologies"
   },
   "fujifilm_page": {
-    "hero_title": "FUJIFILM Selfie Kiosks",
-    "hero_subtitle": "Ολοκληρωμένες λύσεις αυτόματων πωλητών φωτογραφίας από την Fujifilm Korea",
+    "hero_title": "Korea FUJIFILM Photokiosks",
+    "hero_subtitle": "Ολοκληρωμένες λύσεις Korea FUJIFILM Photokiosk από την Fujifilm Korea",
     "booth_title": "Selfie Booth",
     "booth_desc": "Το απόλυτο photo studio σε μορφή κιόσκι. Συνδυάζει την ποιότητα εκτύπωσης Fujifilm με mirrorless κάμερες για επαγγελματικά αποτελέσματα.",
     "stand_title": "Selfie Stand",
@@ -163,6 +163,50 @@
     "layouts": "Προσαρμοσμένα Layouts",
     "frames": "Ψηφιακά Πλαίσια",
     "beauty_filters": "Beauty Filters",
-    "admin_panel": "Πίνακας Διαχείρισης"
+    "admin_panel": "Πίνακας Διαχείρισης",
+    "features": {
+      "title": "Οτιδήποτε Χρειάζεστε για να Ξεκινήσετε",
+      "subtitle": "Σας παρέχουμε όλα τα απαραίτητα εργαλεία για τη δική σας επιχείρηση Photo Booth",
+      "latest_tech": "Τελευταία Τεχνολογία Photo Booth",
+      "high_quality": "Υψηλής Ποιότητας Εκτυπώσεις (FUJIFILM)",
+      "expert_support": "Εξειδικευμένη Τεχνική & Επιχειρηματική Υποστήριξη",
+      "ce_cert": "Πιστοποίηση CE",
+      "rohs_cert": "Πιστοποίηση RoHS",
+      "multi_lang": "Πολυγλωσσική Υποστήριξη",
+      "qr_pay": "Πληρωμή με QR Code (Alipay / Wechatpay)",
+      "card_pay": "Πληρωμή με Κάρτα (Stripe / Square)",
+      "custom_ui": "Προσαρμογή UI & Πλαισίου"
+    },
+    "use_cases": {
+      "title": "Πού Μπορείτε να το Χρησιμοποιήσετε;",
+      "subtitle": "Παραδείγματα Χρήσης",
+      "exhibition": "Εκθέσεις",
+      "store": "Καταστήματα",
+      "party_festival": "Πάρτι / Φεστιβάλ",
+      "popup": "Pop-up Events"
+    },
+    "lineup": {
+      "title": "Επιλέξτε το δικό σας SELFIE KIOSK",
+      "subtitle": "SELFIE KIOSK LINE UP",
+      "click_hint": "Κάντε κλικ στις εικόνες για λεπτομέρειες",
+      "booth": "SELFIE BOOTH",
+      "booth_tag": "BEST",
+      "booth_desc": "Το πιο δημοφιλές Παραδοσιακό Photo Kiosk",
+      "high_angle": "HIGH ANGLE",
+      "high_angle_tag": "HOT",
+      "high_angle_desc": "Korea Hot Trend - High Angle Photo Kiosk",
+      "mega_photo": "MEGA PHOTO",
+      "mega_photo_tag": "NEW",
+      "mega_photo_desc": "Mega Size Photo Kiosk (*8x28 inch)",
+      "photo_card": "SELFIE PHOTO CARD",
+      "photo_card_tag": "NEW",
+      "photo_card_desc": "Photo Card Printer (Random / Customizing)",
+      "stand_wood": "SELFIE STAND WOOD",
+      "stand_wood_desc": "Aesthetic Wooden Design Photo Kiosk",
+      "stand_box": "SELFIE STAND BOX",
+      "stand_box_desc": "Simple & Easy Photo Kiosk",
+      "cube": "SELFIE CUBE",
+      "cube_desc": "Εκτύπωση φωτογραφιών από το κινητό σας"
+    }
   }
 }

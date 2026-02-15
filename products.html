@@ -56,66 +56,17 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <!-- Enterpack Product Card -->
-        <div class="col-md-6 mb-4" data-animate>
-          <div class="product-category-card"
-            style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
-            <!-- Product Image -->
-            <div style="width: 100%; height: 250px; overflow: hidden; position: relative;">
-              <img src="https://www.enterpack.co.uk/sites/default/files/styles/machine/public/machines/ehq350.jpg"
-                alt="Enterpack EHQ-350" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"
-                onerror="this.parentElement.style.display='none'">
-              <div
-                style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
-                ΕΠΑΓΓΕΛΜΑΤΙΚΟΣ ΕΞΟΠΛΙΣΜΟΣ
-              </div>
-            </div>
-            <!-- Content -->
-            <div style="padding: var(--spacing-2xl);">
-              <h2
-                style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-md); color: var(--color-grey-900);">
-                Enterpack
-              </h2>
-              <p
-                style="font-size: var(--font-size-lg); color: var(--color-grey-600); margin-bottom: var(--spacing-md); flex-grow: 1;">
-                Μηχανές Συσκευασίας Τροφίμων
-              </p>
-              <p style="color: var(--color-grey-600); margin-bottom: var(--spacing-lg);">
-                Επαγγελματικές μηχανές σφράγισης δίσκων (tray sealers) και συσκευασίας με MAP από την Κορέα. Ιδανικές
-                για όλες τις επιχειρήσεις.
-              </p>
-              <ul style="list-style: none; padding: 0; margin: 0 0 var(--spacing-lg) 0; color: var(--color-grey-600);">
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
-                  <span>Tray Sealers (ET-Mini, ET-D10, ET-P6L, ET-P9L)</span>
-                </li>
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
-                  <span>MAP Packaging Machines (ET-VG420, ET-VG520T)</span>
-                </li>
-                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
-                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
-                  <span>Κορεάτικη ποιότητα & πλήρης υποστήριξη</span>
-                </li>
-              </ul>
-              <a href="enterpack.html" class="btn btn--primary" style="align-self: flex-start;">
-                Δείτε τα Προϊόντα Enterpack →
-              </a>
-            </div>
-          </div>
-        </div>
-
         <!-- FUJIFILM Selfie Kiosks Product Card -->
-        <div class="col-md-6 mb-4" data-animate>
+        <div class="col-md-6 mb-4" data-animate id="fujifilm">
           <div class="product-category-card"
             style="background: linear-gradient(135deg, #fef2f2 0%, #fff1f2 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
             <div
               style="width: 100%; height: 250px; overflow: hidden; position: relative; background: linear-gradient(135deg, var(--color-white) 0%, #fef2f2 100%); display: flex; align-items: center; justify-content: center; padding: var(--spacing-lg);">
-              <img src="./assets/images/products/fujifilm_kiosk.png" alt="FUJIFILM Selfie Kiosk"
+              <img src="https://cdn.imweb.me/thumbnail/20250729/95a894efad669.png" alt="Korea FUJIFILM Photokiosk"
                 style="height: 220px; width: auto; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));">
               <div
                 style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
-                FUJIFILM KOREA
+                KOREA FUJIFILM
               </div>
             </div>
             <div style="padding: var(--spacing-2xl);">
@@ -151,7 +102,7 @@
         </div>
 
         <!-- ICIDA DTF Inks Product Card -->
-        <div class="col-md-6 mb-4" data-animate>
+        <div class="col-md-6 mb-4" data-animate id="inks">
           <div class="product-category-card"
             style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
             <!-- Product Images -->
@@ -208,25 +159,250 @@
             </div>
           </div>
         </div>
+
+        <!-- Enterpack Product Card -->
+        <div class="col-md-6 mb-4" data-animate id="enterpack">
+          <div class="product-category-card"
+            style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
+            <!-- Product Image -->
+            <div style="width: 100%; height: 250px; overflow: hidden; position: relative;">
+              <img src="https://www.enterpack.co.uk/sites/default/files/styles/machine/public/machines/ehq350.jpg"
+                alt="Enterpack EHQ-350" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"
+                onerror="this.parentElement.style.display='none'">
+              <div
+                style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
+                ΕΠΑΓΓΕΛΜΑΤΙΚΟΣ ΕΞΟΠΛΙΣΜΟΣ
+              </div>
+            </div>
+            <!-- Content -->
+            <div style="padding: var(--spacing-2xl);">
+              <h2
+                style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-md); color: var(--color-grey-900);">
+                Enterpack
+              </h2>
+              <p
+                style="font-size: var(--font-size-lg); color: var(--color-grey-600); margin-bottom: var(--spacing-md); flex-grow: 1;">
+                Μηχανές Συσκευασίας Τροφίμων
+              </p>
+              <p style="color: var(--color-grey-600); margin-bottom: var(--spacing-lg);">
+                Επαγγελματικές μηχανές σφράγισης δίσκων (tray sealers) και συσκευασίας με MAP από την Κορέα. Ιδανικές
+                για όλες τις επιχειρήσεις.
+              </p>
+              <ul style="list-style: none; padding: 0; margin: 0 0 var(--spacing-lg) 0; color: var(--color-grey-600);">
+                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
+                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
+                  <span>Tray Sealers (ET-Mini, ET-D10, ET-P6L, ET-P9L)</span>
+                </li>
+                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
+                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
+                  <span>MAP Packaging Machines (ET-VG420, ET-VG520T)</span>
+                </li>
+                <li style="padding: var(--spacing-xs) 0; display: flex; align-items: start; gap: var(--spacing-sm);">
+                  <span style="color: var(--color-primary); font-size: 1.2em;">✓</span>
+                  <span>Κορεάτικη ποιότητα & πλήρης υποστήριξη</span>
+                </li>
+              </ul>
+              <a href="enterpack.html" class="btn btn--primary" style="align-self: flex-start;">
+                Δείτε τα Προϊόντα Enterpack →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ZOrders Software Product Card -->
+        <div class="col-md-6 mb-4" data-animate id="software">
+          <div class="product-category-card"
+            style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border-radius: var(--radius-lg); padding: 0; height: 100%; display: flex; flex-direction: column; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 2px solid transparent; overflow: hidden;">
+            <div
+              style="width: 100%; height: 250px; overflow: hidden; position: relative; background: linear-gradient(135deg, #701a75 0%, #4a044e 100%); display: flex; align-items: center; justify-content: center; padding: var(--spacing-lg);">
+              <h1 style="color: white; font-size: 4rem; font-weight: 800; opacity: 0.2; position: absolute;">ZOrders
+              </h1>
+              <div style="position: relative; z-index: 1; text-align: center;">
+                <div style="font-size: 5rem;">💻</div>
+              </div>
+              <div
+                style="position: absolute; top: var(--spacing-md); left: var(--spacing-md); background: linear-gradient(135deg, #a21caf 0%, #701a75 100%); color: white; padding: var(--spacing-xs) var(--spacing-md); border-radius: var(--radius-full); font-size: var(--font-size-sm); font-weight: 600; box-shadow: var(--shadow-md);">
+                SOFTWARE SOLUTIONS
+              </div>
+            </div>
+            <div style="padding: var(--spacing-2xl);">
+              <h2
+                style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-md); color: var(--color-grey-900);">
+                ZOrders Inventory Management
+              </h2>
+              <p
+                style="font-size: var(--font-size-lg); color: var(--color-grey-600); margin-bottom: var(--spacing-md); flex-grow: 1;">
+                Έξυπνο λογισμικό διαχείρισης εργαστηριακών αντιδραστηρίων και αναλωσίμων.
+              </p>
+              <ul
+                style="list-style: none; padding: 0; margin-bottom: var(--spacing-xl); display: grid; grid-template-columns: 1fr; gap: var(--spacing-sm);">
+                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
+                  <span style="color: #a21caf;">✓</span> Πλήρης έλεγχος αποθέματος σε πραγματικό χρόνο
+                </li>
+                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
+                  <span style="color: #a21caf;">✓</span> Αυτόματες ειδοποιήσεις για λήξη προϊόντων
+                </li>
+                <li style="display: flex; align-items: center; gap: var(--spacing-xs); font-size: var(--font-size-sm);">
+                  <span style="color: #a21caf;">✓</span> Εύκολη διαχείριση παραγγελιών
+                </li>
+              </ul>
+              <a href="contact.html?subject=Software" class="btn btn--primary"
+                style="align-self: flex-start; background: #a21caf;">
+                <span>Ζητήστε Παρουσίαση</span> →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partner-inquiry-box" data-animate>
+        <p data-i18n="form.partner_inquiry">Σας ενδιαφέρει να γίνετε μεταπωλητής ή συνεργάτης;</p>
+        <button class="btn-partner" data-i18n="form.partner_btn">Ενδιαφέρομαι!</button>
       </div>
     </div>
   </section>
 
-  <!-- WhatsApp Floating Widget -->
-  <div class="whatsapp-float">
-    <a href="https://wa.me/35799368000" target="_blank" class="whatsapp-button" aria-label="Chat on WhatsApp">
-      <span class="whatsapp-tooltip">Στείλτε μας μήνυμα!</span>
-      <svg viewBox="0 0 24 24">
-        <path
-          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-      </svg>
-    </a>
-  </div>
+  <!-- Partner Inquiry Modal -->
+  <div class="modal" id="partnerModal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h3 data-i18n="form.partner_modal_title" style="margin-bottom: var(--spacing-lg);">Αίτηση Συνεργασίας</h3>
+      <form action="https://formsubmit.co/info@icida.com.cy" method="POST" data-form-type="partner"
+        data-whatsapp="true">
+        <input type="hidden" name="_subject" value="New Partner Inquiry - ICIDA">
 
-  <!-- Scripts -->
-  <script src="./js/language.js"></script>
-  <script src="./js/forms.js"></script>
-  <script src="./js/main.js"></script>
+        <div class="form-group mb-3 text-start">
+          <label class="form-label" data-i18n="form.name">Ονοματεπώνυμο</label>
+          <input type="text" name="name" class="form-control" required data-i18n="form.name"
+            placeholder="Ονοματεπώνυμο">
+        </div>
+
+        <div class="form-group mb-3 text-start">
+          <label class="form-label" data-i18n="form.email">Email</label>
+          <input type="email" name="email" class="form-control" required data-i18n="form.email" placeholder="Email">
+        </div>
+
+        <div class="form-group mb-3 text-start">
+          <label class="form-label" data-i18n="form.q1">Ποιο προϊόν σας ενδιαφέρει περισσότερο;</label>
+          <select name="interested_product" class="form-control form-select">
+            <option value="fujifilm" data-i18n="form.q1_o1">Korea FUJIFILM Photokiosks</option>
+            <option value="enterpack" data-i18n="form.q1_o2">Enterpack Μηχανές Συσκευασίας</option>
+            <option value="inks" data-i18n="form.q1_o3">Μελάνια & Αναλώσιμα</option>
+          </select>
+        </div>
+
+        <div class="form-group mb-3 text-start">
+          <label class="form-label" data-i18n="form.q2">Σε ποια χώρα δραστηριοποιείστε;</label>
+          <select name="country" class="form-control form-select" id="countrySelect">
+            <option value="greece" data-i18n="form.q2_o1">Ελλάδα</option>
+            <option value="cyprus" data-i18n="form.q2_o2">Κύπρος</option>
+            <option value="germany" data-i18n="form.q2_o3">Γερμανία</option>
+            <option value="italy" data-i18n="form.q2_o4">Ιταλία</option>
+            <option value="france" data-i18n="form.q2_o5">Γαλλία</option>
+            <option value="spain" data-i18n="form.q2_o6">Ισπανία</option>
+            <option value="other" data-i18n="form.q2_o_other">Άλλη Χώρα...</option>
+          </select>
+        </div>
+
+        <div class="form-group mb-3 text-start" id="otherCountryBox" style="display: none;">
+          <label class="form-label" data-i18n="form.other_country_label">Προσδιορίστε Χώρα</label>
+          <input type="text" name="other_country" class="form-control" data-i18n="form.other_country_placeholder"
+            placeholder="Ποια χώρα;">
+        </div>
+
+        <div class="form-group mb-4 text-start">
+          <label class="form-label" data-i18n="form.q3">Τύπος Επιχείρησης</label>
+          <select name="business_type" class="form-control form-select">
+            <option value="reseller" data-i18n="form.q3_o1">Υφιστάμενος Μεταπωλητής</option>
+            <option value="new" data-i18n="form.q3_o2">Νέα Επιχείρηση</option>
+            <option value="professional" data-i18n="form.q3_o3">Επαγγελματίας Φωτογράφος / Εργαστήριο</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100" data-i18n="form.submit">Αποστολή</button>
+      </form>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="grid grid-4">
+          <!-- Column 1: About -->
+          <div>
+            <img src="./assets/images/logo-white.svg" alt="ICIDA Logo" class="footer__logo">
+            <p class="footer__description" data-i18n="footer.about_description">
+              Η ICIDA Technologies παρέχει ολοκληρωμένες λύσεις παραγωγής, διανομής και αντιπροσωπείας στην Ευρωπαϊκή
+              αγορά.
+            </p>
+            <div class="footer__social">
+              <a href="https://www.facebook.com/icidatechnologies" class="social-icon" aria-label="Facebook"
+                target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </a>
+              <a href="https://cy.linkedin.com/company/icida-technologies" class="social-icon" aria-label="LinkedIn"
+                target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a href="https://wa.me/35799368000" class="social-icon" aria-label="WhatsApp" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- Column 2: Products -->
+          <div>
+            <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
+            <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+            <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+            <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
+          </div>
+          <!-- Column 3: Services -->
+          <div>
+            <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>
+            <a href="services.html" class="footer__link" data-i18n="footer.production">Παραγωγή</a>
+            <a href="services.html" class="footer__link" data-i18n="footer.distribution">Διανομή ΕΕ</a>
+            <a href="services.html" class="footer__link" data-i18n="footer.representation">Αντιπροσωπείες</a>
+          </div>
+          <!-- Column 4: Contact -->
+          <div>
+            <h4 class="footer__title" data-i18n="footer.contact_title">Επικοινωνία</h4>
+            <p class="footer__link" style="cursor: default;">21 Fotinou Pana str<br>1027 Nicosia, Cyprus</p>
+            <a href="mailto:info@icida.com.cy" class="footer__link">info@icida.com.cy</a>
+            <a href="tel:+35799368000" class="footer__link">+357 99 368000</a>
+            <a href="downloads.html" class="footer__link" data-i18n="nav.downloads">Λήψεις</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p data-i18n="footer.copyright">© 2025 ICIDA Technologies. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+          <p style="font-size: var(--font-size-sm); color: var(--color-grey-600); margin-top: var(--spacing-xs);"
+            data-i18n="footer.reg_info">
+            ICIDA TECHNOLOGIES | Αρ. Εγγραφής: ΕΕ 56857 | Εγγεγραμμένη στην Κύπρο: 25/01/2023
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Widget -->
+    <div class="whatsapp-float">
+      <a href="https://wa.me/35799368000" target="_blank" class="whatsapp-button" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-tooltip">Στείλτε μας μήνυμα!</span>
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/language.js"></script>
+    <script src="./js/forms.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 

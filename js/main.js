@@ -19,10 +19,70 @@ class ICIDAWebsite {
     this.setupSmoothScroll();
     this.setupActiveNavigation();
     this.setupLazyLoading();
+    this.setupModal();
+    this.setupConditionalFields();
 
     // Add event listeners
     window.addEventListener('scroll', () => this.handleScroll());
     window.addEventListener('resize', () => this.handleResize());
+  }
+
+  setupModal() {
+    const modalTrigger = document.querySelector('.btn-partner');
+    const modal = document.querySelector('.modal');
+    const modalClose = document.querySelector('.modal-close');
+
+    if (!modal) return;
+
+    if (modalTrigger) {
+      modalTrigger.addEventListener('click', () => {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    }
+
+    if (modalClose) {
+      modalClose.addEventListener('click', () => {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    }
+
+    // Close on click outside
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  setupConditionalFields() {
+    // Country selection logic for Other field
+    const countrySelect = document.getElementById('countrySelect');
+    const otherCountryBox = document.getElementById('otherCountryBox');
+
+    if (countrySelect && otherCountryBox) {
+      countrySelect.addEventListener('change', (e) => {
+        if (e.target.value === 'other') {
+          otherCountryBox.style.display = 'block';
+          const input = otherCountryBox.querySelector('input');
+          if (input) input.setAttribute('required', 'required');
+        } else {
+          otherCountryBox.style.display = 'none';
+          const input = otherCountryBox.querySelector('input');
+          if (input) input.removeAttribute('required');
+        }
+      });
+    }
   }
 
   setupMobileMenu() {
@@ -44,9 +104,9 @@ class ICIDAWebsite {
     // Close menu when clicking outside
     document.addEventListener('click', (e) => {
       if (window.innerWidth <= 768 &&
-          this.nav.classList.contains('active') &&
-          !this.nav.contains(e.target) &&
-          !this.mobileMenuToggle.contains(e.target)) {
+        this.nav.classList.contains('active') &&
+        !this.nav.contains(e.target) &&
+        !this.mobileMenuToggle.contains(e.target)) {
         this.closeMobileMenu();
       }
     });
@@ -181,7 +241,7 @@ const Utils = {
   // Throttle function for scroll events
   throttle(func, limit) {
     let inThrottle;
-    return function(...args) {
+    return function (...args) {
       if (!inThrottle) {
         func.apply(this, args);
         inThrottle = true;

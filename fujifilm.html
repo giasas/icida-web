@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -59,63 +61,252 @@
                     <p class="lead" data-i18n="fujifilm_page.hero_subtitle">
                         Ολοκληρωμένες λύσεις αυτόματων πωλητών φωτογραφίας από την Fujifilm Korea
                     </p>
-                    <div class="mt-4">
-                        <a href="contact.html" class="btn btn-primary" style="background-color: #ef4444;"
-                            data-i18n="hero.cta_secondary">Γίνετε Συνεργάτης</a>
+                    <div class="col-md-6" data-animate>
+                        <img src="https://cdn.imweb.me/thumbnail/20250124/743996c683da4.jpg"
+                            alt="Fujifilm Selfie Kiosk Models"
+                            style="width: 100%; max-height: 500px; object-fit: contain; filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));">
                     </div>
                 </div>
-                <div class="col-md-6" data-animate>
-                    <img src="./assets/images/products/fujifilm_kiosk.png" alt="Fujifilm Selfie Kiosk"
-                        style="width: 100%; max-height: 500px; object-fit: contain; filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));">
+                <div class="d-flex flex-wrap justify-content-center gap-3 mt-5" data-animate>
+                    <a href="contact.html" class="btn btn-primary"
+                        style="background-color: #ef4444; padding: 12px 32px; font-size: 1.1rem;"
+                        data-i18n="hero.cta_secondary">Γίνετε Συνεργάτης</a>
+                    <a href="https://en.fujifilm-kiosk.com/" target="_blank" class="btn btn-outline"
+                        style="border-color: #ef4444; color: #ef4444; padding: 12px 32px; font-size: 1.1rem;">
+                        Global Portal →
+                    </a>
                 </div>
             </div>
-        </div>
     </section>
 
-    <!-- PRODUCT TRIO -->
-    <section class="section">
+    </section>
+
+    <!-- SELFIE KIOSK LINE UP -->
+    <section class="fujifilm-lineup">
         <div class="container">
-            <div class="grid grid-3">
+            <div class="section-header" data-animate>
+                <p class="lead" data-i18n="fujifilm_page.lineup.title" style="color: #333; font-weight: 500;">Choose
+                    your own SELFIE KIOSK</p>
+                <h2 data-i18n="fujifilm_page.lineup.subtitle" style="font-size: 42px; margin-bottom: 5px;">SELFIE KIOSK
+                    LINE UP</h2>
+                <p style="color: #666; font-size: 14px;" data-i18n="fujifilm_page.lineup.click_hint">Click the images,
+                    you can move to detail pages</p>
+            </div>
+
+            <div class="lineup-grid">
                 <!-- Selfie Booth -->
-                <div class="card" data-animate>
-                    <h3 data-i18n="fujifilm_page.booth_title">Selfie Booth</h3>
-                    <p data-i18n="fujifilm_page.booth_desc">Το απόλυτο photo studio σε μορφή κιόσκι...</p>
+                <a href="booth.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250729/95a894efad669.png" alt="SELFIE BOOTH">
+                    </div>
+                    <div class="lineup-info">
+                        <div class="lineup-badges">
+                            <span class="lineup-badge badge-best" data-i18n="fujifilm_page.lineup.booth_tag">BEST</span>
+                        </div>
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.booth">SELFIE BOOTH</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.booth_desc">Most popular Traditional
+                            Photo Kiosk</p>
+                    </div>
+                </a>
+
+                <!-- High Angle -->
+                <a href="high-angle.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250810/5ccef5eb807fe.png" alt="HIGH ANGLE">
+                    </div>
+                    <div class="lineup-info">
+                        <div class="lineup-badges">
+                            <span class="lineup-badge badge-hot"
+                                data-i18n="fujifilm_page.lineup.high_angle_tag">HOT</span>
+                        </div>
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.high_angle">HIGH ANGLE</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.high_angle_desc">Korea Hot Trend - High
+                            angle Photo Kiosk</p>
+                    </div>
+                </a>
+
+                <!-- Mega Photo -->
+                <a href="mega-photo.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250810/10a2484947108.png" alt="MEGA PHOTO">
+                    </div>
+                    <div class="lineup-info">
+                        <div class="lineup-badges">
+                            <span class="lineup-badge badge-new"
+                                data-i18n="fujifilm_page.lineup.mega_photo_tag">NEW</span>
+                        </div>
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.mega_photo">MEGA PHOTO</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.mega_photo_desc">Mega Size Photo Kiosk
+                            (*Photo Size: 8x28 inch)</p>
+                    </div>
+                </a>
+
+                <!-- Photo Card -->
+                <a href="photo-card.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250729/4314233cc552b.png" alt="SELFIE PHOTO CARD">
+                    </div>
+                    <div class="lineup-info">
+                        <div class="lineup-badges">
+                            <span class="lineup-badge badge-new"
+                                data-i18n="fujifilm_page.lineup.photo_card_tag">NEW</span>
+                        </div>
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.photo_card">SELFIE PHOTO CARD</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.photo_card_desc">Photo Card Printer (*2
+                            Options (Random / Customizing))</p>
+                    </div>
+                </a>
+
+                <!-- Stand Wood -->
+                <a href="stand-wood.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250729/d859924f6feaa.png" alt="SELFIE STAND WOOD">
+                    </div>
+                    <div class="lineup-info">
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.stand_wood">SELFIE STAND WOOD</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.stand_wood_desc">Aesthetic Wooden Design
+                            Photo Kiosk</p>
+                    </div>
+                </a>
+
+                <!-- Stand Box -->
+                <a href="stand-box.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250729/5e968faa67d99.png" alt="SELFIE STAND BOX">
+                    </div>
+                    <div class="lineup-info">
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.stand_box">SELFIE STAND BOX</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.stand_box_desc">Simple & Easy Photo Kiosk
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Cube -->
+                <a href="cube.html" class="lineup-item" data-animate>
+                    <div class="lineup-image-container">
+                        <img src="https://cdn.imweb.me/thumbnail/20250729/816581f610e07.png" alt="SELFIE CUBE">
+                    </div>
+                    <div class="lineup-info">
+                        <span class="lineup-name" data-i18n="fujifilm_page.lineup.cube">SELFIE CUBE</span>
+                        <p class="lineup-desc" data-i18n="fujifilm_page.lineup.cube_desc">Print pictures in your phone
+                            Photo Printer</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES & CERTIFICATIONS -->
+    <section class="fujifilm-features">
+        <div class="container">
+            <h2 data-i18n="fujifilm_page.features.title">We Give You Everything You Need</h2>
+            <span class="subtitle" data-i18n="fujifilm_page.features.subtitle">to Start Your Own Photo Booth
+                Business</span>
+
+            <div class="feature-list-container">
+                <ul class="feature-list">
+                    <li data-i18n="fujifilm_page.features.latest_tech">Latest Photo Booth Technology</li>
+                    <li data-i18n="fujifilm_page.features.high_quality">High quality Photo Prints (FUJIFILM)</li>
+                    <li data-i18n="fujifilm_page.features.expert_support">Expert Technical & Business Support</li>
+                </ul>
+            </div>
+
+            <div class="certs-grid">
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/f36dff0293097.png"
+                        alt="CE Certification">
+                    <span data-i18n="fujifilm_page.features.ce_cert">CE Certification</span>
                 </div>
-                <!-- Selfie Stand -->
-                <div class="card" data-animate>
-                    <h3 data-i18n="fujifilm_page.stand_title">Selfie Stand</h3>
-                    <p data-i18n="fujifilm_page.stand_desc">Ευέλικτο και κομψό, ιδανικό για εκδηλώσεις...</p>
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/b624e9d70ab7a.png"
+                        alt="RoHS Certification">
+                    <span data-i18n="fujifilm_page.features.rohs_cert">RoHS Certification</span>
                 </div>
-                <!-- Selfie Cube -->
-                <div class="card" data-animate>
-                    <h3 data-i18n="fujifilm_page.cube_title">Selfie Cube</h3>
-                    <p data-i18n="fujifilm_page.cube_desc">Η πιο compact λύση για άμεση εκτύπωση από smartphones...</p>
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/adbd165ccd72f.png"
+                        alt="Multi-language support">
+                    <span data-i18n="fujifilm_page.features.multi_lang">Multi-language support</span>
+                </div>
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/ea51ac76e44de.png"
+                        alt="QR code Payment">
+                    <span data-i18n="fujifilm_page.features.qr_pay">QR code Payment</span>
+                    <p>*Alipay / Wechatpay</p>
+                </div>
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/fd5b0178b885e.png" alt="Card Payment">
+                    <span data-i18n="fujifilm_page.features.card_pay">CARD Payment</span>
+                    <p>*STRIPE / SQUARE</p>
+                </div>
+                <div class="cert-item" data-animate>
+                    <img src="https://cdn.imweb.me/upload/S20230419c95bdc00e8849/81a029dd00e18.png"
+                        alt="UI & Frame Customizing">
+                    <span data-i18n="fujifilm_page.features.custom_ui">UI & Frame Customizing</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TECHNOLOGY HIGHLIGHTS -->
-    <section class="section" style="background-color: var(--color-grey-900); color: white;">
+    <!-- USE CASES CAROUSEL -->
+    <section class="use-cases-section">
         <div class="container">
-            <div class="text-center mb-5" data-animate>
-                <h2 style="color: white;" data-i18n="fujifilm_page.tech_title">Τεχνολογία & Καινοτομία</h2>
+            <div class="text-center" data-animate>
+                <h2 data-i18n="fujifilm_page.use_cases.title">How can I use SELFIE KIOSK?</h2>
+                <p class="lead" data-i18n="fujifilm_page.use_cases.subtitle">Use Cases</p>
             </div>
-            <div class="grid grid-3">
-                <div class="text-center" data-animate>
-                    <h4 style="color: white;" data-i18n="fujifilm_page.dye_sub_title">Dye-Sublimation Printing</h4>
-                    <p style="color: #ccc;" data-i18n="fujifilm_page.dye_sub_desc">Ζωντανά χρώματα και ανθεκτικότητα
-                        στον χρόνο.</p>
+
+            <!-- Swiper Carousel -->
+            <div class="swiper use-cases-carousel" data-animate>
+                <div class="swiper-wrapper">
+                    <!-- Exhibition -->
+                    <div class="swiper-slide">
+                        <div class="use-case-card">
+                            <div class="use-case-header" data-i18n="fujifilm_page.use_cases.exhibition">Exhibition</div>
+                            <div class="use-case-gallery">
+                                <img src="https://cdn.imweb.me/thumbnail/20250729/7f63d8a72d5bf.png"
+                                    alt="Exhibition Use Case">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store -->
+                    <div class="swiper-slide">
+                        <div class="use-case-card">
+                            <div class="use-case-header" data-i18n="fujifilm_page.use_cases.store">Store</div>
+                            <div class="use-case-gallery">
+                                <img src="https://cdn.imweb.me/thumbnail/20250729/bd9b2a49e0a29.png"
+                                    alt="Store Use Case">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Party / Festival -->
+                    <div class="swiper-slide">
+                        <div class="use-case-card">
+                            <div class="use-case-header" data-i18n="fujifilm_page.use_cases.party_festival">Party /
+                                Festival</div>
+                            <div class="use-case-gallery">
+                                <img src="https://cdn.imweb.me/thumbnail/20250729/e260b8323d8a3.png"
+                                    alt="Party Use Case">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- POP UP -->
+                    <div class="swiper-slide">
+                        <div class="use-case-card">
+                            <div class="use-case-header" data-i18n="fujifilm_page.use_cases.popup">POP UP</div>
+                            <div class="use-case-gallery">
+                                <img src="https://cdn.imweb.me/thumbnail/20250729/d25e967976f05.png"
+                                    alt="POP UP Use Case">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-center" data-animate>
-                    <h4 style="color: white;" data-i18n="fujifilm_page.mirrorless_title">Mirrorless Cameras</h4>
-                    <p style="color: #ccc;" data-i18n="fujifilm_page.mirrorless_desc">Ενσωματωμένες επαγγελματικές
-                        κάμερες.</p>
-                </div>
-                <div class="text-center" data-animate>
-                    <h4 style="color: white;" data-i18n="fujifilm_page.qr_title">QR Connectivity</h4>
-                    <p style="color: #ccc;" data-i18n="fujifilm_page.qr_desc">Σύνδεση smartphone χωρίς εφαρμογές.</p>
-                </div>
+                <!-- Pagination & Navigation -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -157,15 +348,16 @@
                 </div>
                 <div>
                     <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
-                    <a href="products.html" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
-                    <a href="products.html" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
-                    <a href="products.html" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
+                    <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+                    <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+                    <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders
+                        Software</a>
                 </div>
                 <div>
                     <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>
                     <a href="services.html" class="footer__link" data-i18n="footer.production">Παραγωγή</a>
                     <a href="services.html" class="footer__link" data-i18n="footer.distribution">Διανομή ΕΕ</a>
-                    <a href="services.html" class="footer__link" data-i18n="footer.representation">Αντιπροσωπείες</a>
+                    <a href="services.html" class="footer__link" data-i18n="footer.representation">Αντιπροσωπεία</a>
                 </div>
                 <div>
                     <h4 class="footer__title" data-i18n="footer.contact_title">Επικοινωνία</h4>
@@ -184,8 +376,36 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="./js/i18n.js"></script>
+    <script src="./js/language.js"></script>
     <script src="./js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiper = new Swiper('.use-cases-carousel', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

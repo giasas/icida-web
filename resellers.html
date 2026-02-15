@@ -80,8 +80,10 @@
         <div class="col-md-6" data-animate>
           <div class="card p-4">
             <h3 data-i18n="resellers.form_title">Φόρμα Αίτησης Μεταπωλητή</h3>
-            <form action="https://formsubmit.co/info@icida.com.cy" method="POST" class="form">
+            <form action="https://formsubmit.co/info@icida.com.cy" method="POST" class="form" data-form-type="reseller">
               <input type="hidden" name="_subject" value="New Reseller Application - ICIDA">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="_honey" style="display:none">
               <div class="form-group mb-3">
                 <label data-i18n="form.name">Ονοματεπώνυμο</label>
                 <input type="text" name="name" class="form-control" required>
@@ -99,10 +101,27 @@
                 <input type="tel" name="phone" class="form-control">
               </div>
               <div class="form-group mb-3">
+                <label class="form-label" data-i18n="form.q2">Σε ποια χώρα δραστηριοποιείστε;</label>
+                <select name="country" class="form-control form-select" id="countrySelect">
+                  <option value="greece" data-i18n="form.q2_o1">Ελλάδα</option>
+                  <option value="cyprus" data-i18n="form.q2_o2">Κύπρος</option>
+                  <option value="germany" data-i18n="form.q2_o3">Γερμανία</option>
+                  <option value="italy" data-i18n="form.q2_o4">Ιταλία</option>
+                  <option value="france" data-i18n="form.q2_o5">Γαλλία</option>
+                  <option value="spain" data-i18n="form.q2_o6">Ισπανία</option>
+                  <option value="other" data-i18n="form.q2_o_other">Άλλη Χώρα...</option>
+                </select>
+              </div>
+              <div class="form-group mb-3" id="otherCountryBox" style="display: none;">
+                <label class="form-label" data-i18n="form.other_country_label">Προσδιορίστε Χώρα</label>
+                <input type="text" name="other_country" class="form-control" data-i18n="form.other_country_placeholder"
+                  placeholder="Ποια χώρα;">
+              </div>
+              <div class="form-group mb-3">
                 <label data-i18n="form.message">Μήνυμα</label>
                 <textarea name="message" class="form-control" rows="4"></textarea>
               </div>
-              <button type="submit" class="btn btn--primary w-100" data-i18n="form.submit">Αποστολή</button>
+              <button type="submit" class="btn btn-primary w-100" data-i18n="form.submit">Αποστολή</button>
             </form>
           </div>
         </div>
@@ -145,9 +164,9 @@
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
-          <a href="products.html" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
+          <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+          <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+          <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>

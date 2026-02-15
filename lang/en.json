@@ -32,9 +32,9 @@
     "cta_button": "Partnership Application",
     "brands_title": "Our Brands",
     "brands_subtitle": "Innovative products manufactured and packaged by ICIDA Technologies",
-    "fujifilm_brand": "FUJIFILM",
-    "fujifilm_cat": "KIOSKS & IMAGING",
-    "fujifilm_brand_desc": "Leading Selfie Kiosk systems and imaging solutions",
+    "fujifilm_brand": "Korea FUJIFILM Photokiosk",
+    "fujifilm_cat": "KOREAN SELFIE PHOTOKIOSKS",
+    "fujifilm_brand_desc": "ICIDA is the official partner of Fujifilm Korea for Greece and Cyprus, providing the complete lineup of innovative Selfie Photokiosks. We combine Fujifilm's world-class imaging technology with the latest K-Culture trends, defining the future of automated photography.",
     "partners_title": "Strategic Partnerships",
     "partners_subtitle": "Exclusive partnerships with leading international manufacturers"
   },
@@ -52,8 +52,8 @@
     "media_desc": "Specialized printing papers for professional use",
     "software_title": "ZOrders Software",
     "software_desc": "Smart laboratory management software",
-    "fujifilm_title": "FUJIFILM Selfie Kiosks",
-    "fujifilm_desc": "Advanced Selfie Kiosk systems from Fujifilm Korea. High-quality dye-sublimation printing, integration with mirrorless cameras, and modular design for any space.",
+    "fujifilm_title": "Korea FUJIFILM Photokiosk",
+    "fujifilm_desc": "Advanced Korea FUJIFILM Photokiosk systems from Fujifilm Korea. High-quality dye-sublimation printing, integration with mirrorless cameras, and modular design for any space.",
     "view_details": "View Details",
     "download_specs": "Download Specifications"
   },
@@ -144,8 +144,8 @@
     "developed_by": "Developed by ICIDA Technologies"
   },
   "fujifilm_page": {
-    "hero_title": "FUJIFILM Selfie Kiosks",
-    "hero_subtitle": "Comprehensive photo kiosk solutions from Fujifilm Korea",
+    "hero_title": "Korea FUJIFILM Photokiosks",
+    "hero_subtitle": "Comprehensive Korea FUJIFILM Photokiosk solutions from Fujifilm Korea",
     "booth_title": "Selfie Booth",
     "booth_desc": "The ultimate photo studio in kiosk form. Combines Fujifilm print quality with mirrorless cameras for professional results.",
     "stand_title": "Selfie Stand",
@@ -163,6 +163,50 @@
     "layouts": "Custom Layouts",
     "frames": "Digital Frames",
     "beauty_filters": "Beauty Filters",
-    "admin_panel": "Admin Dashboard"
+    "admin_panel": "Admin Dashboard",
+    "features": {
+      "title": "We Give You Everything You Need",
+      "subtitle": "to Start Your Own Photo Booth Business",
+      "latest_tech": "Latest Photo Booth Technology",
+      "high_quality": "High quality Photo Prints (FUJIFILM)",
+      "expert_support": "Expert Technical & Business Support",
+      "ce_cert": "CE Certification",
+      "rohs_cert": "RoHS Certification",
+      "multi_lang": "Multi-language support",
+      "qr_pay": "QR code Payment (Alipay / Wechatpay)",
+      "card_pay": "CARD Payment (Stripe / Square)",
+      "custom_ui": "UI & Frame Customizing"
+    },
+    "use_cases": {
+      "title": "How can I use SELFIE KIOSK?",
+      "subtitle": "Use Cases",
+      "exhibition": "Exhibition",
+      "store": "Store",
+      "party_festival": "Party / Festival",
+      "popup": "POP UP"
+    },
+    "lineup": {
+      "title": "Choose your own SELFIE KIOSK",
+      "subtitle": "SELFIE KIOSK LINE UP",
+      "click_hint": "Click the images, you can move to detail pages",
+      "booth": "SELFIE BOOTH",
+      "booth_tag": "BEST",
+      "booth_desc": "Most popular Traditional Photo Kiosk",
+      "high_angle": "HIGH ANGLE",
+      "high_angle_tag": "HOT",
+      "high_angle_desc": "Korea Hot Trend - High angle Photo Kiosk",
+      "mega_photo": "MEGA PHOTO",
+      "mega_photo_tag": "NEW",
+      "mega_photo_desc": "Mega Size Photo Kiosk (*Photo Size: 8x28 inch)",
+      "photo_card": "SELFIE PHOTO CARD",
+      "photo_card_tag": "NEW",
+      "photo_card_desc": "Photo Card Printer (*2 Options (Random / Customizing))",
+      "stand_wood": "SELFIE STAND WOOD",
+      "stand_wood_desc": "Aesthetic Wooden Design Photo Kiosk",
+      "stand_box": "SELFIE STAND BOX",
+      "stand_box_desc": "Simple & Easy Photo Kiosk",
+      "cube": "SELFIE CUBE",
+      "cube_desc": "Print pictures in your phone Photo Printer"
+    }
   }
 }

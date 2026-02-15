@@ -42,8 +42,18 @@ class LanguageManager {
           "cta_button": "Αίτηση Συνεργασίας",
           "brands_title": "Τα Brands μας",
           "brands_subtitle": "Καινοτόμα προϊόντα που παράγονται και συσκευάζονται από την ICIDA Technologies",
+          "fujifilm_brand": "Korea FUJIFILM Photokiosk",
+          "fujifilm_cat": "ΑΥΤΟΜΑΤΟΙ ΠΩΛΗΤΕΣ ΦΩΤΟΓΡΑΦΙΑΣ",
+          "fujifilm_brand_desc": "Η ICIDA αποτελεί τον επίσημο συνεργάτη της <a href=\"https://en.fujifilm-kiosk.com/\" target=\"_blank\" style=\"color: var(--color-primary); font-weight: 700;\">Fujifilm Korea</a> για Ελλάδα και Κύπρο, προσφέροντας την πλήρη σειρά των καινοτόμων Selfie Photokiosks. Συνδυάζουμε την κορυφαία τεχνολογία εκτύπωσης της Fujifilm με τις σύγχρονες τάσεις του K-Culture, δημιουργώντας το μέλλον της αυτόματης φωτογράφησης.",
           "partners_title": "Στρατηγικές Συνεργασίες",
           "partners_subtitle": "Αποκλειστικές συνεργασίες με κορυφαίους διεθνείς κατασκευαστές"
+        },
+        "event": {
+          "banner_title": "PhotoVision 2026 - Αθήνα",
+          "banner_desc": "Θα μας βρείτε στην έκθεση PhotoVision 2026! Ελάτε να γνωρίσετε από κοντά τις λύσεις μας και να συζητήσουμε για νέες συνεργασίες.",
+          "banner_location": "Κλειστό Παλαιού Φαλήρου (Tae Kwon Do)",
+          "banner_dates": "13-15 Μαρτίου 2026",
+          "banner_cta": "Περισσότερα για την Έκθεση"
         },
         "products": {
           "page_title": "Τα Προϊόντα μας",
@@ -59,6 +69,8 @@ class LanguageManager {
           "media_desc": "Ειδικά χαρτιά εκτύπωσης για επαγγελματική χρήση",
           "software_title": "ZOrders Software",
           "software_desc": "Έξυπνο λογισμικό διαχείρισης εργαστηρίου",
+          "fujifilm_title": "Korea FUJIFILM Photokiosk",
+          "fujifilm_desc": "Προηγμένα συστήματα αυτόματων πωλητών (Korea FUJIFILM Photokiosk) από την Fujifilm Korea. Υψηλή ποιότητα εκτύπωσης dye-sublimation, ενσωμάτωση με mirrorless κάμερες και modular σχεδιασμός για κάθε χώρο.",
           "view_details": "Περισσότερα",
           "download_specs": "Λήψη Τεχνικών Χαρακτηριστικών"
         },
@@ -76,13 +88,15 @@ class LanguageManager {
           "page_title": "Σχετικά με την ICIDA",
           "page_subtitle": "Η ιστορία μας, οι αξίες μας, το όραμά μας",
           "profile_title": "Εταιρικό Προφίλ",
-          "profile_desc": "Η ICIDA Technologies είναι μια δυναμική εταιρεία που δραστηριοποιείται στην παραγωγή, διανομή και αντιπροσώπευση προϊόντων στην Ευρωπαϊκή αγορά. Με έδρα στην Κύπρο, παρέχουμε ολοκληρωμένες λύσεις σε επιχειρήσεις σε όλη την ΕΕ.",
+          "profile_desc": "Η ICIDA Technologies αποτελεί έναν κόμβο καινοτομίας, εξειδικευμένο στον σχεδιασμό, την παραγωγή και τη στρατηγική διανομή βιομηχανικών λύσεων αιχμής. Με επίκεντρο την Κύπρο και ένα εκτεταμένο δίκτυο συνεργατών σε όλη την Ευρωπαϊκή Ένωση, γεφυρώνουμε το χάσμα μεταξύ της υψηλής τεχνολογίας και των πρακτικών επιχειρηματικών αναγκών. Η τεχνογνωσία μας εκτείνεται από τα επαγγελματικά μελάνια εκτύπωσης έως τα προηγμένα συστήματα αυτόματης φωτογράφησης και συσκευασίας τροφίμων.",
           "mission_title": "Αποστολή",
           "mission_desc": "Να παρέχουμε καινοτόμες λύσεις υψηλής ποιότητας που υπερβαίνουν τις προσδοκίες των πελατών μας.",
           "vision_title": "Όραμα",
-          "vision_desc": "Να γίνουμε ο κορυφαίος συνεργάτης επιχειρήσεων στην Ευρώπη για βιομηχανικά προϊόντα και λύσεις.",
+          "vision_desc": "Στόχος μας είναι να καθιερωθούμε ως ο πιο αξιόπιστος στρατηγικός σύμβουλος και προμηθευτής τεχνολογικών λύσεων στην Ευρώπη, προωθώντας την επιχειρηματική αριστεία μέσω της καινοτομίας και των αποκλειστικών διεθνών συνεργασιών.",
           "certifications_title": "Πιστοποιήσεις",
-          "partnerships_title": "Συνεργασίες"
+          "partnerships_title": "Στρατηγικές Συνεργασίες",
+          "kita_title": "Διεθνείς Διασυνδέσεις (<a href=\"https://www.kita.org/\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">KITA</a>)",
+          "kita_desc": "Βρισκόμαστε σε συνεχή επικοινωνία με τον <a href=\"https://www.kita.org/\" target=\"_blank\" style=\"color: var(--color-primary); font-weight: 700;\">KITA</a> (Korea International Trade Association), τον κορυφαίο οργανισμό εμπορίου της Νότιας Κορέας. Η συνεργασία αυτή στοχεύει στη διαρκή αναζήτηση και εισαγωγή νέων, πρωτοποριακών τεχνολογιών στην Ευρωπαϊκή αγορά, φέρνοντάς μας σε επαφή με τους πιο αξιόπιστους κατασκευαστές της Ασιατικής ηπείρου για τη δημιουργία νέων στρατηγικών συνεργασιών."
         },
         "resellers": {
           "page_title": "Γίνετε Μεταπωλητής",
@@ -130,15 +144,66 @@ class LanguageManager {
           "submit": "Αποστολή",
           "required": "Υποχρεωτικό πεδίο",
           "success": "Το μήνυμα εστάλη επιτυχώς!",
-          "error": "Υπήρξε σφάλμα. Παρακαλώ δοκιμάστε ξανά."
+          "error": "Υπήρξε σφάλμα. Παρακαλώ δοκιμάστε ξανά.",
+          "partner_inquiry": "Σας ενδιαφέρει να γίνετε μεταπωλητής ή συνεργάτης;",
+          "partner_btn": "Ενδιαφέρομαι!",
+          "partner_modal_title": "Αίτηση Συνεργασίας",
+          "q1": "Ποιο προϊόν σας ενδιαφέρει περισσότερο;",
+          "q1_o1": "Korea FUJIFILM Photokiosks",
+          "q1_o2": "Enterpack Μηχανές Συσκευασίας",
+          "q1_o3": "Μελάνια & Αναλώσιμα",
+          "q2": "Σε ποια χώρα δραστηριοποιείστε;",
+          "q2_o1": "Ελλάδα",
+          "q2_o2": "Κύπρος",
+          "q2_o3": "Γερμανία",
+          "q2_o4": "Ιταλία",
+          "q2_o5": "Γαλλία",
+          "q2_o6": "Ισπανία",
+          "q2_o_other": "Άλλη Χώρα...",
+          "other_country_label": "Προσδιορίστε Χώρα",
+          "other_country_placeholder": "Ποια χώρα;",
+          "q3": "Τύπος Επιχείρησης",
+          "q3_o1": "Υφιστάμενος Μεταπωλητής",
+          "q3_o2": "Νέα Επιχείρηση",
+          "q3_o3": "Επαγγελματίας Φωτογράφος / Εργαστήριο",
+          "select_subject": "Επιλέξτε θέμα...",
+          "sub_general": "Γενική Πληροφορία",
+          "sub_products": "Ερώτηση για Προϊόντα",
+          "sub_prices": "Αίτηση Τιμοκαταλόγου",
+          "sub_support": "Τεχνική Υποστήριξη",
+          "sub_partnership": "Πρόταση Συνεργασίας",
+          "sub_other": "Άλλο"
         },
         "footer": {
           "about_title": "Σχετικά",
           "products_title": "Προϊόντα",
           "services_title": "Υπηρεσίες",
           "contact_title": "Επικοινωνία",
+          "inks": "Μελάνια Εκτύπωσης",
+          "media": "ICIDA Media",
+          "software": "ZOrders Software",
           "copyright": "© 2025 ICIDA Technologies. Όλα τα δικαιώματα κατοχυρωμένα.",
-          "developed_by": "Developed by ICIDA Technologies"
+          "developed_by": "Developed by ICIDA Technologies",
+          "reg_info": "ICIDA TECHNOLOGIES | Αρ. Εγγραφής: ΕΕ 56857 | Εγγεγραμμένη στην Κύπρο: 25/01/2023",
+          "about_description": "Η ICIDA Technologies παρέχει ολοκληρωμένες λύσεις παραγωγής, διανομής και αντιπροσωπείας στην Ευρωπαϊκή αγορά.",
+          "production": "Παραγωγή",
+          "distribution": "Διανομή ΕΕ",
+          "representation": "Αντιπροσωπείες"
+        },
+        "fujifilm_page": {
+          "hero_title": "Korea FUJIFILM Photokiosks",
+          "hero_subtitle": "Ολοκληρωμένες λύσεις Korea FUJIFILM Photokiosk από την Fujifilm Korea",
+          "lineup": {
+            "title": "Επιλέξτε το δικό σας SELFIE KIOSK",
+            "subtitle": "SELFIE KIOSK LINE UP",
+            "booth": "SELFIE BOOTH",
+            "high_angle": "HIGH ANGLE",
+            "mega_photo": "MEGA PHOTO",
+            "photo_card": "SELFIE PHOTO CARD",
+            "stand_wood": "SELFIE STAND WOOD",
+            "stand_box": "SELFIE STAND BOX",
+            "cube": "SELFIE CUBE"
+          }
         }
       },
       en: {
@@ -175,8 +240,18 @@ class LanguageManager {
           "cta_button": "Partnership Application",
           "brands_title": "Our Brands",
           "brands_subtitle": "Innovative products manufactured by ICIDA Technologies",
+          "fujifilm_brand": "Korea FUJIFILM Photokiosk",
+          "fujifilm_cat": "KOREAN SELFIE PHOTOKIOSKS",
+          "fujifilm_brand_desc": "ICIDA is the official partner of <a href=\"https://en.fujifilm-kiosk.com/\" target=\"_blank\" style=\"color: var(--color-primary); font-weight: 700;\">Fujifilm Korea</a> for Greece and Cyprus, providing the complete lineup of innovative Selfie Photokiosks. We combine Fujifilm's world-class imaging technology with the latest K-Culture trends, defining the future of automated photography.",
           "partners_title": "Strategic Partnerships",
           "partners_subtitle": "Exclusive partnerships with leading international manufacturers"
+        },
+        "event": {
+          "banner_title": "PhotoVision 2026 - Athens",
+          "banner_desc": "Find us at PhotoVision 2026! Come and discover our solutions in person and let's discuss new partnerships.",
+          "banner_location": "Tae Kwon Do Arena, Athens",
+          "banner_dates": "March 13-15, 2026",
+          "banner_cta": "More Info"
         },
         "products": {
           "page_title": "Our Products",
@@ -192,6 +267,8 @@ class LanguageManager {
           "media_desc": "Specialized printing papers for professional use",
           "software_title": "ZOrders Software",
           "software_desc": "Smart laboratory management software",
+          "fujifilm_title": "Korea FUJIFILM Photokiosk",
+          "fujifilm_desc": "Advanced Korea FUJIFILM Photokiosk systems from Fujifilm Korea. High-quality dye-sublimation printing, integration with mirrorless cameras, and modular design for any space.",
           "view_details": "View Details",
           "download_specs": "Download Specifications"
         },
@@ -209,13 +286,15 @@ class LanguageManager {
           "page_title": "About ICIDA",
           "page_subtitle": "Our story, our values, our vision",
           "profile_title": "Company Profile",
-          "profile_desc": "ICIDA Technologies is a dynamic company operating in the production, distribution and representation of products in the European market. Based in Cyprus, we provide comprehensive solutions to businesses throughout the EU.",
+          "profile_desc": "ICIDA Technologies is an innovation hub specializing in the design, production, and strategic distribution of cutting-edge industrial solutions. Centered in Cyprus with an extensive network of partners across the European Union, we bridge the gap between high technology and practical business needs. Our expertise ranges from professional printing inks to advanced automated photography systems and food packaging solutions.",
           "mission_title": "Mission",
           "mission_desc": "To provide innovative high-quality solutions that exceed our customers' expectations.",
           "vision_title": "Vision",
-          "vision_desc": "To become the leading business partner in Europe for industrial products and solutions.",
+          "vision_desc": "Our goal is to establish ourselves as the most reliable strategic advisor and supplier of technological solutions in Europe, promoting business excellence through innovation and exclusive international partnerships.",
           "certifications_title": "Certifications",
-          "partnerships_title": "Partnerships"
+          "partnerships_title": "Strategic Partnerships",
+          "kita_title": "International Connections (<a href=\"https://www.kita.org/\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">KITA</a>)",
+          "kita_desc": "We are in constant communication with <a href=\"https://www.kita.org/\" target=\"_blank\" style=\"color: var(--color-primary); font-weight: 700;\">KITA</a> (Korea International Trade Association), South Korea's leading trade organization. This partnership aims to continuously search for and introduce new, pioneering technologies to the European market, putting us in contact with the most reliable manufacturers on the Asian continent to create new strategic partnerships."
         },
         "resellers": {
           "page_title": "Become a Reseller",
@@ -263,15 +342,66 @@ class LanguageManager {
           "submit": "Submit",
           "required": "Required field",
           "success": "Message sent successfully!",
-          "error": "There was an error. Please try again."
+          "error": "There was an error. Please try again.",
+          "partner_inquiry": "Are you interested in becoming a reseller or partner?",
+          "partner_btn": "I'm Interested!",
+          "partner_modal_title": "Partnership Application",
+          "q1": "Which product interests you the most?",
+          "q1_o1": "Korea FUJIFILM Photokiosks",
+          "q1_o2": "Enterpack Packaging Machines",
+          "q1_o3": "Inks & Consumables",
+          "q2": "In which country do you operate?",
+          "q2_o1": "Greece",
+          "q2_o2": "Cyprus",
+          "q2_o3": "Germany",
+          "q2_o4": "Italy",
+          "q2_o5": "France",
+          "q2_o6": "Spain",
+          "q2_o_other": "Other Country...",
+          "other_country_label": "Specify Country",
+          "other_country_placeholder": "Which country?",
+          "q3": "Business Type",
+          "q3_o1": "Existing Reseller",
+          "q3_o2": "New Business",
+          "q3_o3": "Professional Photographer / Lab",
+          "select_subject": "Select subject...",
+          "sub_general": "General Inquiry",
+          "sub_products": "Product Inquiry",
+          "sub_prices": "Price List Request",
+          "sub_support": "Technical Support",
+          "sub_partnership": "Partnership Proposal",
+          "sub_other": "Other"
         },
         "footer": {
           "about_title": "About",
           "products_title": "Products",
           "services_title": "Services",
           "contact_title": "Contact",
+          "inks": "Printing Inks",
+          "media": "ICIDA Media",
+          "software": "ZOrders Software",
           "copyright": "© 2025 ICIDA Technologies. All rights reserved.",
-          "developed_by": "Developed by ICIDA Technologies"
+          "developed_by": "Developed by ICIDA Technologies",
+          "reg_info": "ICIDA TECHNOLOGIES | Reg. No: EE 56857 | Registered in Cyprus: 25/01/2023",
+          "about_description": "ICIDA Technologies provides comprehensive manufacturing, distribution and representation solutions in the European market.",
+          "production": "Manufacturing",
+          "distribution": "EU Distribution",
+          "representation": "Representations"
+        },
+        "fujifilm_page": {
+          "hero_title": "Korea FUJIFILM Photokiosks",
+          "hero_subtitle": "Comprehensive Korea FUJIFILM Photokiosk solutions from Fujifilm Korea",
+          "lineup": {
+            "title": "Choose your own SELFIE KIOSK",
+            "subtitle": "SELFIE KIOSK LINE UP",
+            "booth": "SELFIE BOOTH",
+            "high_angle": "HIGH ANGLE",
+            "mega_photo": "MEGA PHOTO",
+            "photo_card": "SELFIE PHOTO CARD",
+            "stand_wood": "SELFIE STAND WOOD",
+            "stand_box": "SELFIE STAND BOX",
+            "cube": "SELFIE CUBE"
+          }
         }
       }
     };
@@ -313,7 +443,7 @@ class LanguageManager {
         if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
           element.placeholder = translation;
         } else {
-          element.textContent = translation;
+          element.innerHTML = translation;
         }
       }
     });

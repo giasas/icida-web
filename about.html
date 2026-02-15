@@ -55,23 +55,84 @@
   <!-- ABOUT CONTENT -->
   <section class="section">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6" data-animate>
-          <h2 data-i18n="about.profile_title">Εταιρικό Προφίλ</h2>
-          <p data-i18n="about.profile_desc">
-            Η ICIDA Technologies είναι μια δυναμική εταιρεία που δραστηριοποιείται στην παραγωγή, διανομή και
-            αντιπροσώπευση προϊόντων στην Ευρωπαϊκή αγορά. Με έδρα στην Κύπρο, παρέχουμε ολοκληρωμένες λύσεις σε
-            επιχειρήσεις σε όλη την ΕΕ.
+      <!-- Profile & Core Purpose -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-7" data-animate>
+          <div class="section-badge" data-i18n="about.profile_title">Εταιρικό Προφίλ</div>
+          <h2 data-i18n="about.page_title">Σχετικά με την ICIDA</h2>
+          <p class="lead" data-i18n="about.profile_desc">
+            Η ICIDA Technologies αποτελεί έναν κόμβο καινοτομίας...
           </p>
         </div>
-        <div class="col-md-6" data-animate>
-          <div style="background: var(--color-grey-100); padding: var(--spacing-2xl); border-radius: var(--radius-lg);">
-            <h3 data-i18n="about.mission_title">Αποστολή</h3>
-            <p data-i18n="about.mission_desc">Να παρέχουμε καινοτόμες λύσεις υψηλής ποιότητας που υπερβαίνουν τις
-              προσδοκίες των πελατών μας.</p>
-            <h3 data-i18n="about.vision_title">Όραμα</h3>
-            <p data-i18n="about.vision_desc">Να γίνουμε ο κορυφαίος συνεργάτης επιχειρήσεων στην Ευρώπη για βιομηχανικά
-              προϊόντα και λύσεις.</p>
+        <div class="col-md-5" data-animate>
+          <div
+            style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); padding: var(--spacing-2xl); border-radius: var(--radius-xl); border: 1px solid var(--color-grey-200); box-shadow: var(--shadow-sm);">
+            <div class="mb-4">
+              <h3
+                style="color: var(--color-primary); font-size: 1.25rem; display: flex; align-items: center; gap: 10px;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+                <span data-i18n="about.mission_title">Αποστολή</span>
+              </h3>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: var(--color-grey-600);"
+                data-i18n="about.mission_desc">Να παρέχουμε καινοτόμες λύσεις υψηλής ποιότητας που υπερβαίνουν τις
+                προσδοκίες των πελατών μας.</p>
+            </div>
+            <div>
+              <h3
+                style="color: var(--color-secondary-dark); font-size: 1.25rem; display: flex; align-items: center; gap: 10px;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+                <span data-i18n="about.vision_title">Όραμα</span>
+              </h3>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: var(--color-grey-600);"
+                data-i18n="about.vision_desc">Στόχος μας είναι να καθιερωθούμε ως ο πιο αξιόπιστος στρατηγικός
+                σύμβουλος...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Strategic Partnerships & KITA -->
+      <div class="row pt-5">
+        <div class="col-lg-6 mb-4" data-animate>
+          <div class="card h-100" style="border-top: 4px solid var(--color-primary);">
+            <h3 data-i18n="about.partnerships_title">Στρατηγικές Συνεργασίες</h3>
+            <p style="color: var(--color-grey-600);">
+              Συνεργαζόμαστε με κορυφαίους οίκους του εξωτερικού, διασφαλίζοντας την αποκλειστική διάθεση προϊόντων που
+              συνδυάζουν την ποιότητα με την τεχνολογική υπεροχή. Οι συνεργασίες μας με οίκους από τη Νότια Κορέα, την
+              Ιταλία και την Κίνα μας επιτρέπουν να προσφέρουμε λύσεις που είναι πάντα ένα βήμα μπροστά από τον
+              ανταγωνισμό.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4" data-animate>
+          <div class="card h-100"
+            style="border-top: 4px solid #ee2c3c; background: linear-gradient(to bottom right, #ffffff, #fff5f5);">
+            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+              <div
+                style="width: 50px; height: 50px; background: #ee2c3c; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white;">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                  <line x1="12" y1="22.08" x2="12" y2="12" />
+                </svg>
+              </div>
+              <h3 style="margin: 0; font-size: 1.4rem;" data-i18n="about.kita_title">Διεθνείς Διασυνδέσεις (KITA)</h3>
+            </div>
+            <p style="color: var(--color-grey-700); font-weight: 500;" data-i18n="about.kita_desc">
+              Βρισκόμαστε σε συνεχή επικοινωνία με τον KITA (Korea International Trade Association)...
+            </p>
+            <div class="mt-3">
+              <a href="https://www.kita.org/" target="_blank" class="btn btn-outline btn-sm"
+                style="padding: 8px 15px; font-size: 0.85rem;">
+                Visit KITA Official Site →
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -113,9 +174,9 @@
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
-          <a href="products.html" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
+          <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+          <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+          <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>

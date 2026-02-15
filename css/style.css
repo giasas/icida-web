@@ -256,6 +256,8 @@ p {
 
 .hero__content {
   max-width: 700px;
+  position: relative;
+  z-index: 10;
 }
 
 .hero__title {
@@ -693,7 +695,163 @@ textarea.form-control {
   }
 }
 
-/* Mobile adjustments */
+/* ====================================
+   PARTNER INQUIRY & MODAL
+   ==================================== */
+
+.partner-inquiry-box {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--color-primary-light);
+  text-align: center;
+}
+
+.partner-inquiry-box p {
+  font-size: var(--font-size-sm);
+  color: var(--color-grey-700);
+  margin-bottom: var(--spacing-md);
+  font-weight: 500;
+}
+
+.btn-partner {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: white;
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-xl);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  animation: pulse-border 2s infinite;
+}
+
+.btn-partner:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.5);
+}
+
+@keyframes pulse-border {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(52, 152, 219, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+  }
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal.active {
+  display: flex;
+  opacity: 1;
+}
+
+.modal-content {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  position: relative;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+  box-shadow: var(--shadow-2xl);
+}
+
+.modal.active .modal-content {
+  transform: translateY(0);
+}
+
+.modal-close {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  font-size: 1.5rem;
+  color: var(--color-grey-400);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  color: var(--color-grey-900);
+}
+
+.modal-title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-primary);
+}
+
+/* Multi-choice Form Styles */
+.choice-group {
+  margin-bottom: var(--spacing-xl);
+}
+
+.choice-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-grey-800);
+}
+
+.options-grid {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.option-item {
+  position: relative;
+}
+
+.option-item input {
+  position: absolute;
+  opacity: 0;
+}
+
+.option-item label {
+  display: block;
+  padding: var(--spacing-md);
+  background: var(--color-grey-50);
+  border: 2px solid var(--color-grey-200);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: var(--font-size-sm);
+}
+
+.option-item input:checked+label {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
 @media (max-width: 768px) {
   .whatsapp-float {
     bottom: 20px;
@@ -1242,8 +1400,9 @@ textarea.form-control {
 
 .hero-graphic svg {
   width: 100%;
-  height: 100%;
-  max-width: 400px;
+  height: auto;
+  max-width: 500px;
+  /* Reduced from 600px to prevent overlap */
 }
 
 /* Slide 1: Factory Gears */
@@ -1297,7 +1456,8 @@ textarea.form-control {
   }
 
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
+    /* Slightly reduced movement */
     opacity: 1;
   }
 
@@ -1371,4 +1531,379 @@ textarea.form-control {
   to {
     stroke-dashoffset: -100;
   }
+}
+
+/* Fujifilm Specific Styles */
+.fujifilm-features {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.imweb.me/thumbnail/20250729/362da929520d7.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: var(--spacing-5xl) 0;
+  text-align: center;
+}
+
+.fujifilm-features h2 {
+  color: white;
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-sm);
+}
+
+.fujifilm-features .subtitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-2xl);
+  display: block;
+}
+
+.feature-list-container {
+  max-width: 600px;
+  margin: 0 auto var(--spacing-3xl);
+  text-align: left;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.feature-list li {
+  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  justify-content: center;
+}
+
+.feature-list li::before {
+  content: '✓';
+  color: #ef4444;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-2xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.cert-item {
+  text-align: center;
+  transition: transform var(--transition-base);
+}
+
+.cert-item:hover {
+  transform: translateY(-5px);
+}
+
+.cert-item img {
+  height: 100px;
+  width: auto;
+  margin: 0 auto var(--spacing-md);
+  filter: brightness(0) invert(1);
+}
+
+.cert-item span {
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.cert-item p {
+  color: var(--color-grey-400);
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.use-cases-section {
+  padding: var(--spacing-5xl) 0;
+  background-color: var(--color-white);
+}
+
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.use-case-card {
+  background: var(--color-grey-50);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-grey-200);
+  transition: all var(--transition-base);
+}
+
+.use-case-card:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-5px);
+}
+
+.use-case-header {
+  padding: var(--spacing-md);
+  background: var(--color-grey-100);
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-grey-900);
+  border-bottom: 1px solid var(--color-grey-200);
+}
+
+/* Fujifilm Lineup Styles */
+.fujifilm-lineup {
+  padding: var(--spacing-5xl) 0;
+  background-color: var(--color-grey-50);
+  text-align: center;
+}
+
+.fujifilm-lineup .section-header {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.lineup-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-3xl) var(--spacing-xl);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Individual Lineup Item */
+.lineup-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  text-decoration: none;
+  transition: transform var(--transition-base);
+}
+
+.lineup-item:hover {
+  transform: translateY(-10px);
+}
+
+.lineup-image-container {
+  width: 100%;
+  aspect-ratio: 1/1.2;
+  background: white;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.lineup-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.lineup-info {
+  text-align: center;
+}
+
+.lineup-badges {
+  display: flex;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  margin-bottom: var(--spacing-xs);
+}
+
+.lineup-badge {
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-best {
+  background-color: #ffde00;
+  color: #000;
+}
+
+.badge-hot {
+  background-color: #ffde00;
+  color: #000;
+}
+
+.badge-new {
+  background-color: #ffde00;
+  color: #000;
+}
+
+.lineup-name {
+  background-color: white;
+  color: #333;
+  padding: 6px 20px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-bottom: var(--spacing-xs);
+  border: 1px solid var(--color-grey-200);
+}
+
+.lineup-desc {
+  font-size: 13px;
+  color: var(--color-grey-600);
+  line-height: 1.4;
+}
+
+/* Swiper Carousel Overrides for Use Cases */
+.use-cases-carousel {
+  padding: 0 var(--spacing-2xl) var(--spacing-3xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-primary);
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-md);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .fujifilm-features .subtitle {
+    font-size: var(--font-size-xl);
+  }
+
+  .certs-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+
+  .use-cases-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* PhotoVision 2026 Banner */
+.photovision-banner {
+  background: linear-gradient(135deg, #111 0%, #222 100%);
+  color: white;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Event Detail Item Responsive */
+@media (max-width: 768px) {
+  .photovision-banner {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .event-tag {
+    font-size: 0.8rem;
+  }
+
+  .event-title {
+    font-size: 1.75rem;
+  }
+
+  .event-details {
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.photovision-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 1000px;
+  background: radial-gradient(circle, rgba(255, 222, 0, 0.1) 0%, transparent 70%);
+  transform: rotate(-15deg);
+  pointer-events: none;
+}
+
+.event-tag {
+  background: #ffde00;
+  color: #000;
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--spacing-md);
+}
+
+.event-title {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.event-details {
+  display: flex;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.event-detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffde00;
+  font-weight: 600;
+}
+
+.event-detail-item svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Section Badge Utility */
+.section-badge {
+  display: inline-block;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--spacing-md);
+}
+
+.lineup-grid {
+  grid-template-columns: 1fr;
 }

@@ -162,7 +162,7 @@ class FormHandler {
 
   sendWhatsAppNotification(data, formType) {
     // REPLACE WITH YOUR WHATSAPP NUMBER (with country code, no + or spaces)
-    const whatsappNumber = '357XXXXXXXX'; // Example: 35799123456 for Cyprus
+    const whatsappNumber = '35799368000'; // Official ICIDA contact number
 
     let message = `🔔 New ${formType} Form Submission\n\n`;
 

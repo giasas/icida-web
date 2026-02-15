@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FUJIFILM Selfie Cube - Η πιο compact λύση για άμεση εκτύπωση από smartphones.">
+    <title>FUJIFILM Selfie Cube | ICIDA Technologies</title>
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <style>
+        .product-slices {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: #f8f9fa;
+        }
+
+        .product-slices img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo-link">
+                <img src="./assets/images/logo-horizontal.svg" alt="ICIDA Logo" class="header__logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link" data-i18n="nav.home">ΑΡΧΙΚΗ</a></li>
+                    <li><a href="products.html" class="nav__link active" data-i18n="nav.products">ΠΡΟΪΟΝΤΑ</a></li>
+                    <li><a href="services.html" class="nav__link" data-i18n="nav.services">ΥΠΗΡΕΣΙΕΣ</a></li>
+                    <li><a href="about.html" class="nav__link" data-i18n="nav.about">ΣΧΕΤΙΚΑ</a></li>
+                    <li><a href="resellers.html" class="nav__link" data-i18n="nav.resellers">ΜΕΤΑΠΩΛΗΤΕΣ</a></li>
+                    <li><a href="downloads.html" class="nav__link" data-i18n="nav.downloads">ΛΗΨΕΙΣ</a></li>
+                    <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                </ul>
+                <div class="lang-switcher">
+                    <button class="lang-switcher__btn active" data-lang="el">ΕΛ</button>
+                    <button class="lang-switcher__btn" data-lang="en">EN</button>
+                </div>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="product-slices">
+        <img src="https://cdn.imweb.me/thumbnail/20240502/8290c8f3af1e9.jpg" alt="Selfie Cube Slice 1">
+        <img src="https://cdn.imweb.me/thumbnail/20240502/679f62f947ee9.jpg" alt="Selfie Cube Slice 2">
+        <img src="https://cdn.imweb.me/thumbnail/20240502/9351b39e80348.jpg" alt="Selfie Cube Slice 3">
+        <img src="https://cdn.imweb.me/thumbnail/20240502/863c1f0789533.jpg" alt="Selfie Cube Slice 4">
+        <img src="https://cdn.imweb.me/thumbnail/20240502/b195aeb24dece.jpg" alt="Selfie Cube Slice 5">
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <img src="./assets/images/logo-white.svg" alt="ICIDA Logo" class="footer__logo">
+                    <p class="footer__description" data-i18n="footer.about_description">
+                        Η ICIDA Technologies παρέχει ολοκληρωμένες λύσεις παραγωγής, διανομής και αντιπροσωπείας στην
+                        Ευρωπαϊκή αγορά.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/icidatechnologies" class="social-icon" aria-label="Facebook"
+                            target="_blank">
+                            <svg width="20" height="20" viewBox="0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://cy.linkedin.com/company/icida-technologies" class="social-icon"
+                            aria-label="LinkedIn" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
+                    <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+                    <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+                    <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders
+                        Software</a>
+                </div>
+                <div>
+                    <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>
+                    <a href="services.html" class="footer__link" data-i18n="footer.production">Παραγωγή</a>
+                    <a href="services.html" class="footer__link" data-i18n="footer.distribution">Διανομή ΕΕ</a>
+                    <a href="services.html" class="footer__link" data-i18n="footer.representation">Αντιπροσωπείες</a>
+                </div>
+                <div>
+                    <h4 class="footer__title" data-i18n="footer.contact_title">Επικοινωνία</h4>
+                    <a href="contact.html" class="footer__link" data-i18n="contact.address">Διεύθυνση</a>
+                    <a href="contact.html" class="footer__link" data-i18n="contact.phone">Τηλέφωνο</a>
+                    <a href="contact.html" class="footer__link" data-i18n="contact.email">Email</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p data-i18n="footer.reg_info">ICIDA TECHNOLOGIES | Αρ. Εγγραφής: ΕΕ 56857 | Εγγεγραμμένη στην Κύπρο:
+                    25/01/2023</p>
+                <p data-i18n="footer.copyright">© 2025 ICIDA Technologies. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/language.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

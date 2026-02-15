@@ -671,7 +671,11 @@
             </div>
 
             <!-- Interest Form -->
-            <form class="reseller-form" id="resellerForm" style="max-width: 700px; margin: 0 auto;">
+            <form action="https://formsubmit.co/info@icida.com.cy" method="POST" data-form-type="reseller"
+              class="reseller-form" id="resellerForm" style="max-width: 700px; margin: 0 auto;">
+              <input type="hidden" name="_subject" value="DTF Inks Reseller Inquiry - ICIDA">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="_honey" style="display:none">
               <div class="row">
                 <div class="col-md-6 mb-4">
                   <label
@@ -684,12 +688,34 @@
                 </div>
                 <div class="col-md-6 mb-4">
                   <label
-                    style="display: block; font-weight: 600; color: var(--color-grey-900); margin-bottom: var(--spacing-xs); font-size: var(--font-size-sm);">
+                    style="display: block; font-weight: 600; color: var(--color-grey-900); margin-bottom: var(--spacing-xs); font-size: var(--font-size-sm);"
+                    data-i18n="form.q2">
                     Χώρα *
                   </label>
-                  <input type="text" name="country" required
-                    style="width: 100%; padding: var(--spacing-md); border: 2px solid var(--color-grey-300); border-radius: var(--radius-md); font-size: var(--font-size-md); transition: border-color 0.3s ease;"
-                    onfocus="this.style.borderColor='#0ea5e9'" onblur="this.style.borderColor='var(--color-grey-300)'">
+                  <select name="country" id="countrySelect" required
+                    style="width: 100%; padding: var(--spacing-md); border: 2px solid var(--color-grey-300); border-radius: var(--radius-md); font-size: var(--font-size-md); transition: border-color 0.3s ease; background-color: white;">
+                    <option value="greece" data-i18n="form.q2_o1">Ελλάδα</option>
+                    <option value="cyprus" data-i18n="form.q2_o2">Κύπρος</option>
+                    <option value="germany" data-i18n="form.q2_o3">Γερμανία</option>
+                    <option value="italy" data-i18n="form.q2_o4">Ιταλία</option>
+                    <option value="france" data-i18n="form.q2_o5">Γαλλία</option>
+                    <option value="spain" data-i18n="form.q2_o6">Ισπανία</option>
+                    <option value="other" data-i18n="form.q2_o_other">Άλλη Χώρα...</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Conditional Other Country Field -->
+              <div class="row" id="otherCountryBox" style="display: none;">
+                <div class="col-12 mb-4">
+                  <label
+                    style="display: block; font-weight: 600; color: var(--color-grey-900); margin-bottom: var(--spacing-xs); font-size: var(--font-size-sm);"
+                    data-i18n="form.other_country_label">
+                    Προσδιορίστε Χώρα
+                  </label>
+                  <input type="text" name="other_country" data-i18n="form.other_country_placeholder"
+                    placeholder="Ποια χώρα;"
+                    style="width: 100%; padding: var(--spacing-md); border: 2px solid var(--color-grey-300); border-radius: var(--radius-md); font-size: var(--font-size-md); transition: border-color 0.3s ease;">
                 </div>
               </div>
 
@@ -747,7 +773,7 @@
               </div>
 
               <div class="text-center">
-                <button type="submit" class="btn btn--primary"
+                <button type="submit" class="btn btn-primary"
                   style="background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); color: white; padding: var(--spacing-md) var(--spacing-3xl); font-size: var(--font-size-lg); font-weight: 700; border: none; border-radius: var(--radius-md); cursor: pointer; box-shadow: 0 4px 16px rgba(14, 165, 233, 0.3); transition: transform 0.2s ease, box-shadow 0.2s ease;"
                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(14, 165, 233, 0.4)'"
                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px rgba(14, 165, 233, 0.3)'">
@@ -838,9 +864,9 @@
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.products_title">Προϊόντα</h4>
-          <a href="products.html" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
-          <a href="products.html" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
+          <a href="products.html#inks" class="footer__link" data-i18n="footer.inks">Μελάνια Εκτύπωσης</a>
+          <a href="products.html#fujifilm" class="footer__link" data-i18n="footer.media">ICIDA Media</a>
+          <a href="products.html#software" class="footer__link" data-i18n="footer.software">ZOrders Software</a>
         </div>
         <div>
           <h4 class="footer__title" data-i18n="footer.services_title">Υπηρεσίες</h4>
