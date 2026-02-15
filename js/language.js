@@ -82,7 +82,9 @@ class LanguageManager {
           "distribution_title": "Διανομή στην ΕΕ",
           "distribution_desc": "Διαθέτουμε εκτεταμένο δίκτυο διανομής σε όλη την Ευρωπαϊκή Ένωση. Εξασφαλίζουμε γρήγορη και ασφαλή παράδοση των προϊόντων σας.",
           "representation_title": "Αντιπροσωπείες & Διαμεσολάβηση",
-          "representation_desc": "Αντιπροσωπεύουμε κορυφαίους κατασκευαστές από Κορέα, Ιταλία, Κίνα και άλλες χώρες. Παρέχουμε πλήρη υποστήριξη για είσοδο στην Ευρωπαϊκή αγορά."
+          "representation_desc": "Αντιπροσωπεύουμε κορυφαίους κατασκευαστές από Κορέα, Ιταλία, Κίνα και άλλες χώρες. Παρέχουμε πλήρη υποστήριξη για είσοδο στην Ευρωπαϊκή αγορά.",
+          "white_label_title": "White Label & OEM Solutions",
+          "white_label_desc": "Παραγωγή ετικετών για συσκευασίες και προϊόντα. Ιδανικό για επιχειρήσεις που θέλουν να προωθήσουν τα προϊόντα τους με το δικό τους brand. Προσφέρουμε πλήρη υποστήριξη για White Label και OEM λύσεις."
         },
         "about": {
           "page_title": "Σχετικά με την ICIDA",
@@ -280,7 +282,9 @@ class LanguageManager {
           "distribution_title": "EU Distribution",
           "distribution_desc": "We have an extensive distribution network throughout the European Union. We ensure fast and safe delivery of your products.",
           "representation_title": "Representations & Intermediation",
-          "representation_desc": "We represent leading manufacturers from Korea, Italy, China and other countries. We provide full support for entry into the European market."
+          "representation_desc": "We represent leading manufacturers from Korea, Italy, China and other countries. We provide full support for entry into the European market.",
+          "white_label_title": "White Label & OEM Solutions",
+          "white_label_desc": "Custom label production for packaging and products. Ideal for businesses looking to promote their products under their own brand. We offer full support for White Label and OEM solutions."
         },
         "about": {
           "page_title": "About ICIDA",
