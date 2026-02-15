@@ -207,10 +207,31 @@ class LanguageManager {
             "stand_wood": "SELFIE STAND WOOD",
             "stand_box": "SELFIE STAND BOX",
             "cube": "SELFIE CUBE"
+          },
+          "features": {
+            "title": "Σας δίνουμε όλα όσα χρειάζεστε",
+            "subtitle": "Για να ξεκινήσετε τη δική σας επιχείρηση Photo Booth",
+            "latest_tech": "Τελευταία Τεχνολογία Photo Booth",
+            "high_quality": "Υψηλή Ποιότητα Εκτύπωσης (FUJIFILM)",
+            "expert_support": "Εξειδικευμένη Τεχνική & Επιχειρηματική Υποστήριξη",
+            "ce_cert": "Πιστοποίηση CE",
+            "rohs_cert": "Πιστοποίηση RoHS",
+            "multi_lang": "Υποστήριξη Πολλαπλών Γλωσσών",
+            "qr_pay": "Πληρωμή με QR Code",
+            "card_pay": "Πληρωμή με Κάρτα",
+            "custom_ui": "Προσαρμογή UI & Πλαισίου"
+          },
+          "use_cases": {
+            "title": "Πώς μπορώ να χρησιμοποιήσω το SELFIE KIOSK;",
+            "subtitle": "Παραδείγματα Χρήσης",
+            "exhibition": "Εκθέσεις / Events",
+            "store": "Καταστήματα",
+            "party_festival": "Πάρτι / Φεστιβάλ",
+            "popup": "Pop-up Stores"
           }
         }
       },
-      en: {
+      "en": {
         "nav": {
           "home": "HOME",
           "products": "PRODUCTS",
@@ -409,10 +430,32 @@ class LanguageManager {
             "stand_wood": "SELFIE STAND WOOD",
             "stand_box": "SELFIE STAND BOX",
             "cube": "SELFIE CUBE"
+          },
+          "features": {
+            "title": "We Give You Everything You Need",
+            "subtitle": "to Start Your Own Photo Booth Business",
+            "latest_tech": "Latest Photo Booth Technology",
+            "high_quality": "High Quality Photo Prints (FUJIFILM)",
+            "expert_support": "Expert Technical & Business Support",
+            "ce_cert": "CE Certification",
+            "rohs_cert": "RoHS Certification",
+            "multi_lang": "Multi-language Support",
+            "qr_pay": "QR code Payment",
+            "card_pay": "Card Payment",
+            "custom_ui": "UI & Frame Customizing"
+          },
+          "use_cases": {
+            "title": "How can I use SELFIE KIOSK?",
+            "subtitle": "Use Cases",
+            "exhibition": "Exhibition",
+            "store": "Store",
+            "party_festival": "Party / Festival",
+            "popup": "POP UP"
           }
         }
       }
     };
+
 
     this.init();
   }
