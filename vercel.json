@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/dillcorp",
+      "destination": "https://dillcorp-management-app.vercel.app/dillcorp"
+    },
+    {
       "source": "/dillcorp/:path*",
-      "destination": "https://dillcorp-management-app.vercel.app/:path*"
+      "destination": "https://dillcorp-management-app.vercel.app/dillcorp/:path*"
     }
   ]
 }
