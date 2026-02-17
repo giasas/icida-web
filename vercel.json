@@ -1,8 +1,1 @@
-{
-  "rewrites": [
-    {
-      "source": "/dillcorp/:path*",
-      "destination": "https://dillcorp-management-app.vercel.app/:path*"
-    }
-  ]
-}
+{}
